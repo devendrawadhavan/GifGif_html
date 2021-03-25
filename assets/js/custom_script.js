@@ -13,6 +13,10 @@
         $(".hdr_searchbar").toggleClass("search_open");
         $(this).toggleClass("search_close");
     });
+    //Header Searchbar open js
+    $('.s_open_icon').on('click', function() {
+        $(".fix_social_icons").toggleClass("open_social_dv");
+    });
     //Accordion js
     $(".accordion_heading").on("click", function() {
         $(this).toggleClass("active");
