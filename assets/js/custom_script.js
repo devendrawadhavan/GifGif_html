@@ -25,19 +25,23 @@
         $(".accordion_heading").not(this).removeClass("active");
     });
     //tabs Menu
-    $('.tab_menu .tab_link').on('click', function() {
-        $(".tab_content").removeClass("active");
+    $('.gf_sidebar_tabs .tab_link').on('click', function() {
+        $(".s_tab_content").removeClass("active");
         var tab_data = $(this).attr("data-tab");
-        $('.tab_menu .tab_link').removeClass("active");
+        $('.gf_sidebar_tabs .tab_link').removeClass("active");
         $(this).addClass("active");
         $("#" + tab_data).addClass("active");
     });
     //fix header on scroll
     $(window).on('scroll', function(e) {
         if ($(window).scrollTop() > 70) {
-            $('.header_section').addClass('fixed_header');
+            $('.gif_header_section').addClass('fixed_header');
         } else {
-            $('.header_section').removeClass('fixed_header');
+            $('.gif_header_section').removeClass('fixed_header');
         }
+    });
+    //user Dropdown Menu
+    $('.l_dropdown_btn').on('click', function() {
+        $(this).next(".l_user_dropdownmenu").toggleClass("show_menu");
     });
 })(jQuery);

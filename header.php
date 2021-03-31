@@ -32,7 +32,7 @@
                 <div class="row"> 
                     <div class="col-lg-2 col-sm-4 col-4 hdr_col_lft">
                         <div class="site_logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="assets/images/logo.png" alt="Logo" class="img-fluid">
                             </a>
                         </div>
@@ -42,17 +42,30 @@
                             <!-- Navigation --> 
                             <div class="gif_navigations">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="#">Animals</a></li>
-                                    <li><a href="#">Anime</a></li>
-                                    <li><a href="#">Reactions</a></li>
-                                    <li><a href="#">Trending</a></li>
-                                    <li><a href="#">Other</a></li>
+                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="category.php">Animals</a></li>
+                                    <li><a href="category.php">Anime</a></li>
+                                    <li><a href="category.php">Reactions</a></li>
+                                    <li><a href="category.php">Trending</a></li>
+                                    <li><a href="category.php">Other</a></li>
                                 </ul>
                             </div>
                             <!-- Navigation --> 
                             <span class="h_search_icon h_icon"><i class="fas fa-search"></i></span>
-                            <a href="login.html" class="site_button h_login_btn"><i class="fas fa-sign-in-alt"></i>Login</a>
+                            <a href="login.php" class="site_button h_login_btn"><i class="fas fa-sign-in-alt"></i>Login</a>
+                            <!-- login Dropdown -->
+                            <div class="l_user_dropdown">
+                                <a href="#" class="l_dropdown_btn">
+                                    <img src="assets/images/user_icon.png" alt="User" class="img-fluid"><span class="user_title">Saurav Roy</span>
+                                </a>
+                                <ul class="l_user_dropdownmenu">
+                                    <li><a href="#"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
+                                    <li><a href="#"><i class="fas fa-plus"></i>New Post</a></li>
+                                    <li><a href="#"><i class="fas fa-cog"></i>Setting</a></li>
+                                    <li><a href="#"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+                                </ul>
+                            </div>
+                            <!-- login Dropdown -->
                             <div class="nav_toggle">
                                 <i></i><i></i><i></i>
                             </div>
@@ -78,67 +91,29 @@
                 <img src="assets/images/icons/close.svg" alt="close" class="img-fluid">
             </span>
             <div class="sidemenu_logo">
-                <a href="index.html"><img src="assets/images/logo.png" alt="Logo" class="img-fluid"></a>
+                <a href="index.php"><img src="assets/images/logo.png" alt="Logo" class="img-fluid"></a>
             </div>
             <nav class="gif_sidebar_navs">
                 <!-- show in mobile -->
                 <ul class="gif_mobile_navs">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Animals</a></li>
-                    <li><a href="#">Anime</a></li>
-                    <li><a href="#">Reactions</a></li>
-                    <li><a href="#">Trending</a></li>
-                    <li><a href="#">Other</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="category.php">Animals</a></li>
+                    <li><a href="category.php">Anime</a></li>
+                    <li><a href="category.php">Reactions</a></li>
+                    <li><a href="category.php">Trending</a></li>
+                    <li><a href="category.php">Other</a></li>
                 </ul>
                 <!-- show in mobile -->
                 <ul>
-                    <li><a href="index.html">Add gif</a></li>
-                    <li><a href="index.html">About Us</a></li>
-                    <li><a href="index.html">Privacy Policy</a></li>
-                    <li><a href="index.html">DMCA Policy</a></li>
-                    <li><a href="index.html">Terms of Service</a></li>
-                    <li><a href="index.html">Cookie Policy</a></li>
+                    <li><a href="#">Add gif</a></li>
+                    <li><a href="about_us.php">About Us</a></li>
+                    <li><a href="contact.php">contact Us</a></li>
+                    <li><a href="privacy_policy.php">Privacy Policy</a></li>
+                    <li><a href="dmca_policy.php">DMCA Policy</a></li>
+                    <li><a href="terms_of_service.php">Terms of Service</a></li>
+                    <li><a href="cookie_policy.php">Cookie Policy</a></li>
                 </ul>
             </nav>
         </div>
     </div>
     <!-- Sidebar Menu End-->
-    <!-- Login Page Start -->
-    <div class="sections gif_forget_pass_page pad_top_bottom_50">
-        <div class="container">
-            <div class="gif_login_container">
-                <div class="gif_login_box">
-                    <div class="login_form_heading">
-                        <h4 class="login_title">Reset Your Password</h4>
-                        <p>Enter Your registered email id we will send you a link</p>
-                    </div>
-                    <div class="gif_login_form">
-                        <form>
-                            <div class="form_group">
-                                <input class="white_input_text" type="email" name="email" placeholder="Enter Your Email">
-                                <span class="l_icon"><i class="fas fa-envelope-open"></i></span>
-                            </div>
-                            <div class="button_group">
-                                <button type="submit" class="site_button login_btn">send password reset link</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Login Page End -->
-    <!-- jquery library js -->
-    <script src="assets/js/jquery.min.js"></script>
-    <!-- jquery library js -->
-    <!-- bootstrap js file-->
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
-    <!-- bootstrap js file-->
-    <!-- owl-carousel js file-->
-    <script src="assets/js/plugins/owl_carousel/owl.carousel.min.js"></script>
-    <!-- owl-carousel js file-->
-    <script src="assets/js/custom_script.js"></script>
-</body>
-
-</html>

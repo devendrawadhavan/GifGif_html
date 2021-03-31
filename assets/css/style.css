@@ -31,7 +31,7 @@
         color: #05cbc3;
     }
     strong {
-        color: #05cbc3;
+        color: #ffffff;
     }
     .sections {
         float: left;
@@ -405,24 +405,46 @@
         display: none;
         position: relative;
     }
-    .l_user_dropdownmenu {
-        margin: 0;
-        padding: 0;
+    .l_dropdown_btn {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
     }
-    .l_user_dropdown .l_dropdown_btn {
+    .l_dropdown_btn:hover {
+        text-decoration: none;
+    }
+    .l_dropdown_btn .user_title {
         display: inline-block;
-        width: 100%;
+        padding-left: 6px;
+        font-size: 14px;
+        color: #fff;
+        overflow: hidden;
+        max-width: 66px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .l_dropdown_btn:after {
+        position: absolute;
+        content: "\f078";
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        font-size: 12px;
+        top: 10px;
+        right: 0;
+        color: #ffffff;
     }
     .l_dropdown_btn > img {
         width: 36px;
         height: 36px;
         border-radius: 50%;
-    }
-    .l_dropdown_btn .user_title {
-        display: inline-block;
-        padding-left: 6px;
-        font-size: 15px;
-        color: #fff;
     }
     .l_user_dropdownmenu {
         position: absolute;
@@ -438,6 +460,7 @@
         padding: 10px 0 0px;
         border-bottom: 3px solid var(--blue_color);
         border-radius: 0 0 4px 4px;
+        display: none;
     }
     .l_user_dropdownmenu li a {
         padding: 6px 5px;
@@ -455,6 +478,9 @@
         margin-right: 5px;
         font-size: 14px;
         width: 20px;
+    }
+    .l_user_dropdownmenu.show_menu{
+        display: block;
     }
     /*====== User Dropdown css End ======*/
     /*====== Searchbar css Start ======*/
@@ -578,6 +604,7 @@
         font-size: 16px;
         font-weight: 500;
         border-radius: 2em;
+        text-transform: capitalize;
     }
     .gif_sidebar_navs ul li a:hover {
         background: var(--blue_color);
@@ -586,7 +613,8 @@
     /*====== Fix Sidebar Menu css End ======*/
     /*====== Gif Grid css start ======*/
     .gf_asside_wrapper {
-        padding-top: 50px;
+        padding-top: 40px;
+        padding-bottom: 90px;
     }
     .home_gif_grid {
         position: relative;
@@ -1040,6 +1068,7 @@
         font-size: 28px;
         font-weight: 600;
         margin-bottom: 20px;
+        text-transform: capitalize;
     }
     .gif_single_img_colm {
     }
@@ -1084,9 +1113,10 @@
     .gif_single_img .gif_navs .next_nav {
         right: 0;
     }
-   .like_fav_dv {
-        text-align: center;
-        margin-top: -20px;
+    .gif_single_img .like_fav_dv {
+        position: absolute;
+        top: 0;
+        right: 0;
     }
    .gif_likefav_dv {
         display: inline-block;
@@ -1129,8 +1159,9 @@
     }
 /*====== Gif Single image Css ======*/
     /*====== Gif Detail Page Start ======*/
-    .gif_detail_page_wrapper{
-        padding-top: 50px;
+    .gif_detail_page_wrapper {
+        padding-top: 40px;
+        padding-bottom: 90px;
     }
     .gif_single_share_colm {
         padding-top: 25px;
@@ -1142,11 +1173,10 @@
         justify-content: center;
         align-items: center;
     }
-    .gif_single_share_colm .share_title {
+    .single_share_text .share_title {
         font-size: 20px;
         margin-bottom: 0;
         font-weight: 500;
-        text-align: center;
         margin-right: 10px;
     }
     .gif_share_dv {
@@ -1173,6 +1203,9 @@
         color: #ffffff;
         border-radius: 50%;
         border: 2px solid var(--blue_color);
+    }
+    .gif_share_lst li a:hover {
+        background: var(--blue_color);
     }
     .gif_single_tag_dv {
         margin-top: 20px;
@@ -1220,5 +1253,208 @@
         font-size: 28px;
     }
     /*====== Similar Post End ======*/
+    /*====== Category page css End ======*/
+    .gif_cate_page_heading {
+        margin-bottom: 30px;
+    }
+    .gif_cate_page_heading .g_page_title {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .gif_cate_page_heading p {
+        margin-bottom: 10px;
+    }
+    .gif_cate_page_heading .g_page_title span {
+        color: var(--blue_color);
+    }
+    /*====== Category page css End ======*/
+    /*====== Contact page css End ======*/
+    .gif_contact_container {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .gif_contact_box {
+        padding: 30px 25px;
+        border-radius: 10px;
+        background: var(--black_color);
+    }
+    .c_form_heading {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .c_form_heading .h_title {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+    .c_form_heading p {
+        margin-bottom: 0px;
+    }
+   .gif_contact_form .form_group {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .gif_contact_form .form_group > .c_label {
+        margin-bottom: 8px;
+        font-size: 15px;
+    }
+   .gif_contact_form .form_group input {
+        width: 100%;
+        height: 45px;
+        padding: 0 12px 0 34px;
+        border: none;
+        background: var(--gray_color);
+        color: #ffffff;
+        border-radius: 2em;
+        font-size: 15px;
+    }
+    .gif_contact_form .form_group textarea {
+        width: 100%;
+        height: 100px;
+        padding: 0 12px 0 34px;
+        border: none;
+        background: var(--gray_color);
+        color: #ffffff;
+        border-radius: 8px;
+        resize: none;
+        padding-top: 14px;
+        font-size: 15px;
+    }
+    .gif_contact_form .input_group {
+        position: relative;
+    }
+    .gif_contact_form .form_group .l_icon {
+        position: absolute;
+        left: 12px;
+        top: 13.5px;
+        color: var(--blue_color);
+    }
+    .gif_contact_form .submit_btn{
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+    }
+    /*====== Contact page css End ======*/
+    /*====== About page css End ======*/
+    .gif_about_page_text h2 {
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .gif_about_page_text p {
+        margin-bottom: 22px;
+        line-height: 26px;
+    }
+    .gif_about_page_text p a {
+        color: var(--blue_color);
+    }
+    /*====== About page css End ======*/
+    /*====== Privacy Policy Page css ======*/
+    .gif_page_heading .page_title {
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .gif_privacy_page_text h4 {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .gif_privacy_page_text h5 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .gif_privacy_page_text ul {
+        padding-left: 20px;
+        margin: 0;
+        list-style-type: upper-alpha;
+    }
+    .gif_privacy_page_text ul li ol{
+        padding-left: 10px;
+    }
+    .gif_privacy_page_text ul li ol, .gif_privacy_page_text ul li ul {
+        margin-top: 10px;
+    }
+    .gif_privacy_page_text ul li, .gif_privacy_page_text ol li {
+        margin-bottom: 11px;
+        line-height: 23px;
+    }
+    .gif_privacy_page_text p strong {
+        color: var(--blue_color);
+    }
+    /*====== Privacy Policy Page css ======*/
+    /*====== Cookies Page css ======*/
+    .cookies_policy_txt ul {
+        list-style-type: disc;
+    }
+    .cookies_policy_txt ul li strong {
+        color: var(--blue_color);
+    }
+    .cookies_policy_txt h5 {
+        text-decoration: underline;
+    }
+    .cookie_table .table tr td, .cookie_table .table tr th {
+        color: #fff;
+        border: 1px solid #fff;
+    }
+    .cookie_table .table tr td {
+        font-size: 15px;
+    }
+    .cookie_table .table tr td a{
+        color: var(--blue_color);
+    }
+    .cookie_table .table tr td a:hover {
+        color: #ffffff;
+    }
+    /*====== Cookies Page css ======*/
+    /*====== Sticky add image css ======*/
+   .sticky_ad_div {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+    }
+    .sticky_ad_div .sticky_ad_image {
+        max-width: 728px;
+        margin: 0 auto;
+    }
+   /*====== Sticky add image css ======*/
+   /*====== sidebar tabs css ======*/
+   .gf_sidebar_tabs {
+        padding: 0;
+        margin: 0;
+        display: -ms-flexbox;
+        display: flex;
+        display: -webkit-flex;
+        list-style: none;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .gf_sidebar_tabs > .tab_link {
+        height: 40px;
+        line-height: 40px;
+        text-transform: capitalize;
+        background: var(--black_color);
+        margin: 0 0px 5px;
+        font-size: 15px;
+        text-align: center;
+        border-radius: 8px;
+        cursor: pointer;
+        width: 49%;
+    }
+    .gf_sidebar_tabs > .tab_link.active {
+       background: var(--blue_color);
+    }
+  .s_tab_content{
+    display: none;
+    width: 100%;
+   }
+   .s_tab_content.active{
+    display: inline-block;
+   }
+   /*====== sidebar tabs css ======*/
 
     
