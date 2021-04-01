@@ -2,11 +2,12 @@
     <!-- only for mobiel screen -->
     <div class="sidebar_mobile_tabs">
         <ul class="gf_sidebar_tabs">
-            <li class="tab_link active" data-tab="w_account_tab">Top Accounts</li>
-            <li class="tab_link" data-tab="w_tags_tab">Tags</li>
+            <li class="pls_iconss"><img src="assets/images/icons/playlist-plus.svg"></li>
+            <li class="tab_link account_link" data-tab="w_account_tab">Top Accounts</li>
+            <li class="tab_link tag_link" data-tab="w_tags_tab">Tags</li>
         </ul>
         <!-- Accounts widget Start -->
-        <div class="s_tab_content active" id="w_account_tab">
+        <div class="s_tab_content" id="w_account_tab">
             <div class="sidebar_widget account_widgets">
                 <div class="widget_title">
                     <h4>Follow Top Accounts</h4>
@@ -212,6 +213,11 @@
                         </div>
                     </div>
                 </div>
+                <!-- Advertisement Div -->
+                <div class="mobile_advertisement_dv mobile_show_ad">
+                    <img src="assets/images/mobile_ad_img.jpg" class="img-fluid" alt="Advertisement">
+                </div>
+                <!-- Advertisement Div -->
             </div>
         </div>
     </div>

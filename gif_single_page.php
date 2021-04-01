@@ -223,6 +223,79 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- Advertisement Div -->
+                            <div class="col-lg-12 col-12">
+                                <div class="gif_advertisement_dv">
+                                    <img src="assets/images/advertise_img.png" class="img-fluid" alt="Advertisement">
+                                </div>
+                            </div>
+                            <!-- Advertisement Div -->
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6 h_gif_grid_colm">
+                                <div class="h_gif_item">
+                                    <div class="gif_image">
+                                        <img src="assets/images/Gif/gif1.gif" alt="Gif" class="img-fluid">
+                                        <div class="h_gif_overlay">
+                                            <div class="h_gif_overlay_text">
+                                                <div class="activity_icons">
+                                                    <a href="gif_single_page.php" class="a_icon">
+                                                        <i class="fas fa-link"></i>
+                                                    </a>
+                                                    <span class="a_icon">
+                                                        <i class="fas fa-heart"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="gif_title">
+                                                    <h4><a href="gif_single_page.php">Adorable kittens</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6 h_gif_grid_colm">
+                                <div class="h_gif_item">
+                                    <div class="gif_image">
+                                        <img src="assets/images/Gif/gif2.gif" alt="Gif" class="img-fluid">
+                                        <div class="h_gif_overlay">
+                                            <div class="h_gif_overlay_text">
+                                                <div class="activity_icons">
+                                                    <a href="gif_single_page.php" class="a_icon">
+                                                        <i class="fas fa-link"></i>
+                                                    </a>
+                                                    <span class="a_icon">
+                                                        <i class="fas fa-heart"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="gif_title">
+                                                    <h4><a href="gif_single_page.php">Break an egg underwater</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6 h_gif_grid_colm">
+                                <div class="h_gif_item">
+                                    <div class="gif_image">
+                                        <img src="assets/images/Gif/gif3.gif" alt="Gif" class="img-fluid">
+                                        <div class="h_gif_overlay">
+                                            <div class="h_gif_overlay_text">
+                                                <div class="activity_icons">
+                                                    <a href="gif_single_page.php" class="a_icon">
+                                                        <i class="fas fa-link"></i>
+                                                    </a>
+                                                    <span class="a_icon">
+                                                        <i class="fas fa-heart"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="gif_title">
+                                                    <h4><a href="gif_single_page.php">Like a proffesionist n.2</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-6 h_gif_grid_colm">
                                 <div class="h_gif_item">
                                     <div class="gif_image">
@@ -437,6 +510,79 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Advertisement Div -->
+                        <div class="mobile_advertisement_dv mobile_show_ad">
+                            <div class="pad_bottom_30">
+                                <img src="assets/images/mobile_ad_img.jpg" class="img-fluid" alt="Advertisement">
+                            </div>
+                        </div>
+                        <!-- Advertisement Div -->
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-6 h_gif_grid_colm">
+                            <div class="h_gif_item">
+                                <div class="gif_image">
+                                    <img src="assets/images/Gif/gif1.gif" alt="Gif" class="img-fluid">
+                                    <div class="h_gif_overlay">
+                                        <div class="h_gif_overlay_text">
+                                            <div class="activity_icons">
+                                                <a href="gif_single_page.php" class="a_icon">
+                                                    <i class="fas fa-link"></i>
+                                                </a>
+                                                <span class="a_icon">
+                                                    <i class="fas fa-heart"></i>
+                                                </span>
+                                            </div>
+                                            <div class="gif_title">
+                                                <h4><a href="gif_single_page.php">Adorable kittens</a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-6 h_gif_grid_colm">
+                            <div class="h_gif_item">
+                                <div class="gif_image">
+                                    <img src="assets/images/Gif/gif2.gif" alt="Gif" class="img-fluid">
+                                    <div class="h_gif_overlay">
+                                        <div class="h_gif_overlay_text">
+                                            <div class="activity_icons">
+                                                <a href="gif_single_page.php" class="a_icon">
+                                                    <i class="fas fa-link"></i>
+                                                </a>
+                                                <span class="a_icon">
+                                                    <i class="fas fa-heart"></i>
+                                                </span>
+                                            </div>
+                                            <div class="gif_title">
+                                                <h4><a href="gif_single_page.php">Break an egg underwater</a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-6 h_gif_grid_colm">
+                            <div class="h_gif_item">
+                                <div class="gif_image">
+                                    <img src="assets/images/Gif/gif3.gif" alt="Gif" class="img-fluid">
+                                    <div class="h_gif_overlay">
+                                        <div class="h_gif_overlay_text">
+                                            <div class="activity_icons">
+                                                <a href="gif_single_page.php" class="a_icon">
+                                                    <i class="fas fa-link"></i>
+                                                </a>
+                                                <span class="a_icon">
+                                                    <i class="fas fa-heart"></i>
+                                                </span>
+                                            </div>
+                                            <div class="gif_title">
+                                                <h4><a href="gif_single_page.php">Like a proffesionist n.2</a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-6 h_gif_grid_colm">
                             <div class="h_gif_item">
                                 <div class="gif_image">
@@ -511,11 +657,11 @@
         </div>
     </div>
     <!-- Asside Wrapper End -->
-    <!-- Sticky Add Start -->
-    <div class="sticky_ad_div">
+    <!-- Mobile Sticky Add Start -->
+    <div class="mobile_sticky_ad_div">
         <div class="sticky_ad_image">
-            <img src="assets/images/sticky_ad_img.jpg" class="img-fluid" alt="Advertisement">
+            <img src="assets/images/mobile_sticky_img.jpg" class="img-fluid" alt="Advertisement">
         </div>
     </div>
-    <!-- Sticky Add End -->
+    <!-- Mobile Sticky Add End -->
      <?php include 'footer.php';?>

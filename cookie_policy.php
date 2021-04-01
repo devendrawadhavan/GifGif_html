@@ -138,7 +138,7 @@
                                     <tr>
                                         <td>Pdomid</td>
                                         <td>Third-party HTTP cookie</td>
-                                        <td>https://smartadserver.com/</td>
+                                        <td><a target="_blank" href="https://smartadserver.com/">smartadserver.com</a></td>
                                         <td>13 months</td>
                                         <td>The cookie registers which servercluster is serving the visitor. This is used in context with load balancing, in order to optimize user experience.</td>
                                     </tr>

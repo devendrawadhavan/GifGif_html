@@ -12,6 +12,9 @@
 	}
 }
 @media(min-width: 992px) {
+	.mobile_show_ad{
+		display: none;
+	}
 	.gif_sidebar_navs .gif_mobile_navs {
 	    display: none;
 	}
@@ -33,6 +36,9 @@
 	    box-shadow: 0 0 15px rgb(0 0 0 / 80%);
 	    -webkit-box-shadow: 0 0 15px rgb(0 0 0 / 80%);
 	    -moz-box-shadow: 0 0 15px rgb(0 0 0 / 80%);
+	}
+	.mobile_sticky_ad_div{
+		display: none;
 	}
 }
 @media(max-width: 991px) {
@@ -122,6 +128,12 @@
 	.gif_single_tag_dv {
 	    display: none;
 	}
+	.sidebar_mobile_tabs {
+	    margin-bottom: 20px;
+	}
+	.gif_detail_page_wrapper {
+	    padding-bottom: 100px;
+	}
 }
 @media(min-width: 768px) {
 	.fix_social_icons .s_open_icon {
@@ -200,6 +212,13 @@
 	}
 	.gif_likefav_dv .like_text {
 	    font-size: 14px;
+	}
+	.gif_single_img .gif_navs .gif_nav {
+	    font-size: 20px;
+	    width: 40px;
+	    height: 40px;
+	    line-height: 40px;
+	    margin-top: -20px;
 	}
 	/*==== like fav css ====*/
 }
@@ -309,6 +328,10 @@
 	    max-width: 100%;
 	    text-align: center;
 	}
+	.top_advertisement_div img {
+	    max-width: 320px;
+	    height: 100px;
+	}
 }
 @media(min-width: 361px) and (max-width: 440px) {
 	.h_gif_item .gif_image img {
@@ -372,6 +395,9 @@
 	    transform: translateX(260px);
 	}
 	/*=== sidebar menu css ===*/
+	.gf_sidebar_tabs > .tab_link {
+	    width: 45%;
+	}
 }
 @media(max-width: 360px) {
 	.tr_gif_item .gif_image img {

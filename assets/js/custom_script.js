@@ -24,13 +24,21 @@
         $(".accordion_heading").not(this).next(".accordion_content").slideUp(250);
         $(".accordion_heading").not(this).removeClass("active");
     });
-    //tabs Menu
+    //Sidebar tabs Menu
     $('.gf_sidebar_tabs .tab_link').on('click', function() {
-        $(".s_tab_content").removeClass("active");
+        //$(".s_tab_content").slideUp(100);
         var tab_data = $(this).attr("data-tab");
-        $('.gf_sidebar_tabs .tab_link').removeClass("active");
-        $(this).addClass("active");
-        $("#" + tab_data).addClass("active");
+        //$('.gf_sidebar_tabs .tab_link').removeClass("active");
+        $(this).toggleClass("active");
+        $("#"+tab_data).toggleClass("active");
+    });
+    $('.account_link').on('click', function() {
+        $("#w_tags_tab").removeClass("active");
+        $('.tag_link').removeClass("active");
+    });
+    $('.tag_link').on('click', function() {
+        $("#w_account_tab").removeClass("active");
+        $('.account_link').removeClass("active");
     });
     //fix header on scroll
     $(window).on('scroll', function(e) {

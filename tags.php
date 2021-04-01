@@ -288,6 +288,13 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- Advertisement Div -->
+                            <div class="col-lg-12 col-12">
+                                <div class="gif_advertisement_dv">
+                                    <img src="assets/images/advertise_img.png" class="img-fluid" alt="Advertisement">
+                                </div>
+                            </div>
+                            <!-- Advertisement Div -->
                             <div class="col-lg-4 col-md-4 col-sm-6 col-6 h_gif_grid_colm">
                                 <div class="h_gif_item">
                                     <div class="gif_image">
@@ -354,13 +361,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Advertisement Div -->
-                            <div class="col-lg-12 col-12">
-                                <div class="gif_advertisement_dv">
-                                    <img src="assets/images/advertise_img.png" class="img-fluid" alt="Advertisement">
-                                </div>
-                            </div>
-                            <!-- Advertisement Div -->
                         </div>
                     </div>
                 </div>
@@ -374,11 +374,4 @@
         </div>
     </div>
     <!-- Asside Wrapper End -->
-    <!-- Sticky Add Start -->
-    <div class="sticky_ad_div">
-        <div class="sticky_ad_image">
-            <img src="assets/images/sticky_ad_img.jpg" class="img-fluid" alt="Advertisement">
-        </div>
-    </div>
-    <!-- Sticky Add End -->
     <?php include 'footer.php';?>

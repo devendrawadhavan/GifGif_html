@@ -707,6 +707,14 @@
     .gif_advertisement_dv {
         margin-bottom: 30px;
     }
+    .mobile_advertisement_dv {
+        text-align: center;
+        width: 100%;
+        padding: 0 5px;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
     /*====== Gif Grid css start ======*/
     /*====== Sidebar css start ======*/
     .gif_sidebar {
@@ -1161,7 +1169,6 @@
     /*====== Gif Detail Page Start ======*/
     .gif_detail_page_wrapper {
         padding-top: 40px;
-        padding-bottom: 90px;
     }
     .gif_single_share_colm {
         padding-top: 25px;
@@ -1421,6 +1428,18 @@
         max-width: 728px;
         margin: 0 auto;
     }
+    .mobile_sticky_ad_div{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+    }
+    .mobile_sticky_ad_div .sticky_ad_image{
+        max-width: 320px;
+        margin: 0 auto;
+    }
    /*====== Sticky add image css ======*/
    /*====== sidebar tabs css ======*/
    .gf_sidebar_tabs {
@@ -1432,6 +1451,11 @@
         list-style: none;
         justify-content: space-between;
         text-align: center;
+        align-items: center;
+    }
+    .gf_sidebar_tabs > li img {
+        width: 24px;
+        height: 24px;
     }
     .gf_sidebar_tabs > .tab_link {
         height: 40px;
@@ -1443,7 +1467,7 @@
         text-align: center;
         border-radius: 8px;
         cursor: pointer;
-        width: 49%;
+        width: 46%;
     }
     .gf_sidebar_tabs > .tab_link.active {
        background: var(--blue_color);
