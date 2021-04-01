@@ -57,7 +57,7 @@
         -ms-box-shadow: none;
         box-shadow: none;
     }
-    .site_button {
+    .dashboard_button {
         display: inline-block;
         text-align: center;
         text-decoration: none;
@@ -72,13 +72,18 @@
         text-transform: capitalize;
         font-weight: 600;
     }
-    .site_button i, .site_button img {
+    .dashboard_button i, .dashboard_button img {
         margin-right: 4px;
     }
-    .site_button:hover, .site_button:focus {
+    .dashboard_button:hover, .dashboard_button:focus {
         background: #ffffff;
         color: var(--blue_color);
         text-decoration: none;
+    }
+    .black_box {
+        background: var(--black_color);
+        padding: 15px;
+        border-radius: 8px;
     }
     /*=== padding css Start ===*/
     .pad_top_30 {
@@ -187,9 +192,13 @@
     }
 
     .gf_dashboard_sidebar {
-        float: left;
         width: 300px;
         background: var(--black_color);
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        overflow-y: auto;
     }
     .gf_dashboard_navs {
         padding: 20px;
@@ -198,6 +207,24 @@
         padding: 0;
         margin: 0;
         list-style: none;
+    }
+    .gf_dashboard_navs ul li a {
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        border-radius: 6px;
+        text-transform: capitalize;
+    }
+    .gf_dashboard_navs ul li a:hover, .gf_dashboard_navs ul li a:focus {
+        background: var(--blue_color);
+        color: #ffffff;
+    }
+    .gf_dashboard_navs ul li a .nav_icon {
+        font-size: 25px;
+        vertical-align: middle;
+        margin-right: 10px;
     }
     .gf_dash_content {
         padding-left: 300px;
@@ -217,6 +244,7 @@
         padding: 15px;
         border-radius: 8px;
         align-items: center;
+        margin-bottom: 20px;
     }
     .dash_page_header .dash_page_title h3 {
         margin-bottom: 0;
@@ -285,7 +313,7 @@
         display: none;
     }
     .l_user_dropdownmenu li a {
-        padding: 6px 5px;
+        padding: 6px 10px;
         display: block;
         font-size: 15px;
         line-height: 20px;
@@ -306,3 +334,62 @@
         display: block;
     }
     /*========= header css ============*/
+    /*========= dashboard form css start ============*/
+    .gif_dashboard_form .form_group {
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .gif_dashboard_form .form_group .labels {
+        font-size: 17px;
+    }
+    .gif_dashboard_form .form_group input, .gif_dashboard_form .form_group select{
+        width: 100%;
+        height: 45px;
+        padding: 0 15px;
+        border: none;
+        background: var(--gray_color);
+        color: #ffffff;
+        border-radius: 2em;
+    }
+    .gif_dashboard_form .form_group textarea {
+        width: 100%;
+        height: 120px;
+        padding: 10px 15px;
+        border: none;
+        background: var(--gray_color);
+        color: #ffffff;
+        border-radius: 8px;
+        resize:none;
+    }
+    /*========= dashboard form css End ============*/
+    /*========= dashboard Table css start ============*/
+    .gif_dasboard_table .table tr td, .gif_dasboard_table .table tr th {
+        border-bottom: 1px solid #ccc;
+        color: #fff;
+        padding: 13px 10px;
+    }
+    .gif_dasboard_table .table tr th {
+        border-top: 0;
+    }
+    .tbl_action_btns .a_icon {
+        text-decoration: none;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 28px;
+        font-size: 15px;
+        border-radius: 50%;
+        text-align: center;
+        background: transparent;
+        color: var(--blue_color);
+        border: 1px solid var(--blue_color);
+        cursor: pointer;
+    }
+    .tbl_action_btns .a_icon:hover, .tbl_action_btns .a_icon:focus {
+        background: var(--blue_color);
+        color: #ffffff;
+    }
+    .gif_dash_searchbar_box{
+        margin-bottom: 30px;
+    }
+    /*========= dashboard Table css End ============*/
