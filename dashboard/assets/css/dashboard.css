@@ -403,10 +403,10 @@
     /*========= dashboard form css start ============*/
     .gif_dashboard_form .form_group {
         margin-bottom: 20px;
-        align-items: center;
     }
     .gif_dashboard_form .form_group .labels {
         font-size: 17px;
+        margin-top: 5px;
     }
     .gif_dashboard_form .form_group input, .gif_dashboard_form .form_group select{
         width: 100%;
@@ -427,6 +427,28 @@
         border-radius: 8px;
         resize:none;
     }
+    .gif_dashboard_form .img_preview_dv img {
+        width: 100px;
+        height: 100px;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+    .img_upload_button {
+        display: inline-block;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        background: var(--blue_color);
+        color: #ffffff;
+        border-radius: 2em;
+        cursor: pointer;
+        font-weight: 500;
+    }
+    .img_upload_button input {
+        display: none;
+    }
     /*========= dashboard form css End ============*/
     /*====== select 2 css start ======*/
     .gif_dashboard_form .select2-container {
@@ -441,9 +463,27 @@
         align-items: center;
         width: 100%;
         max-width: 100%;
+        min-height: 45px;
     }
     .gif_dashboard_form .select2-container .select2-selection .select2-selection__rendered {
         margin:0;
+    }
+    .select2-container--default .select2-selection--multiple .select2-selection__choice {
+        background-color: var(--black_color);
+        border: 1px solid #ccc;
+        font-size: 15px;
+    }
+    .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+        background-color: transparent;
+        border-right: 1px solid #ccc;
+    }
+    .select2-results__options .select2-results__option {
+        background: var(--gray_color);
+        color: #fff;
+    }
+    .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+        background-color: var(--blue_color);
+        color: #ffffff;
     }
     /*====== select 2 css End ======*/
     /*========= dashboard Table css start ============*/

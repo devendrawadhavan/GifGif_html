@@ -17,7 +17,7 @@
             </a>
            </li>
            <li>
-            <a href="#">
+            <a href="add_gif.php">
               <span class="nav_icon"><i class="fas fa-plus-circle"></i></span>
               <span class="nav_text">Add Gif</span>
             </a>
@@ -41,7 +41,7 @@
             </a>
           </li>
           <li>
-            <a href="category_list.php">
+            <a href="#">
               <span class="nav_icon"><i class="fas fa-clipboard-list"></i></span>
               <span class="nav_text">Categories</span>
             </a>
