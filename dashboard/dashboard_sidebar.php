@@ -1,4 +1,7 @@
 <div class="gf_dashboard_sidebar">
+  <div class="gf_dash_header">
+    <span class="dash_close_btn"><i class="fas fa-arrow-left"></i></span>
+  </div>
    <div class="gf_dashboard_navs">
        <ul>
            <li>

@@ -187,10 +187,28 @@
     .gf_dashboard_wrapper {
         min-height: 100vh;
     }
-    .gf_dashboard_wrapper {
-        min-height: 100vh;
+    .gf_dash_header{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
     }
-
+    .dash_close_btn {
+        display: inline-block;
+        border: 1px solid #fff;
+        color: #fff;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .dash_close_btn i:before {
+        transition: all ease-in 0.25s;
+        -webkit-transition: all ease-in 0.25s;
+        -moz-transition: all ease-in 0.25s;
+    }
     .gf_dashboard_sidebar {
         width: 300px;
         background: var(--black_color);
@@ -199,6 +217,9 @@
         top: 0;
         height: 100%;
         overflow-y: auto;
+        -webkit-transition: all ease-in 0.5s;
+        -moz-transition: all ease-in 0.5s;
+        transition: all ease-in 0.5s;
     }
     .gf_dashboard_navs {
         padding: 20px;
@@ -228,11 +249,56 @@
     }
     .gf_dash_content {
         padding-left: 300px;
+        -webkit-transition: all ease-in 0.5s;
+        -moz-transition: all ease-in 0.5s;
+        transition: all ease-in 0.5s;
     }
    .gf_dash_content_inr {
         padding: 50px 30px;
     }
     /*========= header css ============*/
+    /*========= dashboard close css ============*/
+   .gif_dashboard_close .gf_dashboard_sidebar {
+        width: 100px;
+        text-align: center;
+    }
+    .gif_dashboard_close .gf_dash_header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .gif_dashboard_close .dash_close_btn i:before {
+        content: "\f061";
+    }
+    .gif_dashboard_close .gf_dashboard_navs {
+        padding: 20px 15px;
+    }
+    .gif_dashboard_close .gf_dashboard_navs ul li a {
+        padding: 0;
+        display: inline-block;
+        width: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        font-size: 20px;
+        margin: 5px 0;
+        text-align: center;
+        background: var(--gray_color);
+        color: #ffffff;
+    }
+    .gif_dashboard_close .gf_dashboard_navs ul li a .nav_text {
+        display: none;
+    }
+    .gif_dashboard_close .gf_dashboard_navs ul li a .nav_icon {
+        margin: 0;
+        font-size: 20px;
+    }
+    .gif_dashboard_close .gf_dashboard_navs ul li a:hover, 
+    .gif_dashboard_close .gf_dashboard_navs ul li a:focus{
+        background: var(--blue_color);
+    }
+    .gif_dashboard_close .gf_dash_content{
+        padding-left: 100px;
+    }
+    /*========= dashboard close css ============*/
     .dash_page_header {
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -362,6 +428,24 @@
         resize:none;
     }
     /*========= dashboard form css End ============*/
+    /*====== select 2 css start ======*/
+    .gif_dashboard_form .select2-container {
+        width: 100% !important;
+    }
+    .gif_dashboard_form .select2-container .select2-selection {
+        background: var(--gray_color);
+        padding: 10px;
+        border: none;
+        border-radius: 2em;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+    }
+    .gif_dashboard_form .select2-container .select2-selection .select2-selection__rendered {
+        margin:0;
+    }
+    /*====== select 2 css End ======*/
     /*========= dashboard Table css start ============*/
     .gif_dasboard_table .table tr td, .gif_dasboard_table .table tr th {
         border-bottom: 1px solid #ccc;

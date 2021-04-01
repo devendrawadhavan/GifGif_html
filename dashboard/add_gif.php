@@ -38,6 +38,18 @@
                           <input class="white_input_text" type="text" name="title" placeholder="Gif Title">
                         </div>
                       </div>
+                      <div class="form_group row">
+                        <div class="col-xl-2 col-lg-3 col-12">
+                          <label class="labels">Title</label>
+                        </div>
+                        <div class="input_group col-xl-10 col-lg-9 col-12">
+                         <select class="js-example-basic-multiple" name="states[]" multiple="multiple">
+                             <option value="one">one</option>
+                            <option value="two">two</option>
+                            <option value="three">three</option>
+                          </select>
+                        </div>
+                      </div>
                     </form>
                   </div>
                </div>

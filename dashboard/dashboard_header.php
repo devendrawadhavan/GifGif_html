@@ -12,6 +12,9 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/all.css" rel="stylesheet">
     <link href="assets/css/font.css" rel="stylesheet">
+    <!-- select2 css file-->
+    <link href="assets/js/plugins/select2/select2.min.css" rel="stylesheet" />
+    <!-- select2 css file-->
     <link href="assets/css/custom_animation.css" rel="stylesheet">
     <link href="assets/css/dashboard.css?ver=1.2" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
