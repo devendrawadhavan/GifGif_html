@@ -1,4 +1,4 @@
-<div class="gif_sidebar">
+<div class="gif_sidebar gif_tag_sidebar">
     <!-- only for mobile screen -->
     <div class="sidebar_mobile_tabs">
         <ul class="gf_sidebar_tabs">

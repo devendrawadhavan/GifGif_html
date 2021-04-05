@@ -1435,6 +1435,7 @@
         width: 100%;
         text-align: center;
         z-index: 1;
+        display: none;
     }
     .mobile_sticky_ad_div .sticky_ad_image{
         max-width: 320px;
@@ -1472,13 +1473,16 @@
     .gf_sidebar_tabs > .tab_link.active {
        background: var(--blue_color);
     }
-  .s_tab_content{
-    display: none;
-    width: 100%;
-   }
-   .s_tab_content.active{
-    display: inline-block;
-   }
+    .s_tab_content{
+        display: none;
+        width: 100%;
+    }
+    .s_tab_content.active{
+        display: inline-block;
+    }
+    .gif_tag_sidebar .sidebar_mobile_tabs{
+        display: none;
+    }
    /*====== sidebar tabs css ======*/
 
     

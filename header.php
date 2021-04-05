@@ -55,14 +55,14 @@
                             <a href="login.php" class="site_button h_login_btn"><i class="fas fa-sign-in-alt"></i>Login</a>
                             <!-- login Dropdown -->
                             <div class="l_user_dropdown">
-                                <a href="#" class="l_dropdown_btn">
+                                <a href="javascript:void(0)" class="l_dropdown_btn">
                                     <img src="assets/images/user_icon.png" alt="User" class="img-fluid"><span class="user_title">Saurav Roy</span>
                                 </a>
                                 <ul class="l_user_dropdownmenu">
-                                    <li><a href="#"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
-                                    <li><a href="#"><i class="fas fa-plus"></i>New Post</a></li>
-                                    <li><a href="#"><i class="fas fa-cog"></i>Setting</a></li>
-                                    <li><a href="#"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+                                    <li><a href="javascript:void(0)"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
+                                    <li><a href="javascript:void(0)"><i class="fas fa-plus"></i>New Post</a></li>
+                                    <li><a href="javascript:void(0)"><i class="fas fa-cog"></i>Setting</a></li>
+                                    <li><a href="javascript:void(0)"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
                                 </ul>
                             </div>
                             <!-- login Dropdown -->
@@ -105,7 +105,7 @@
                 </ul>
                 <!-- show in mobile -->
                 <ul>
-                    <li><a href="#">Add gif</a></li>
+                    <li><a href="javascript:void(0)">Add gif</a></li>
                     <li><a href="about_us.php">About Us</a></li>
                     <li><a href="contact.php">contact Us</a></li>
                     <li><a href="privacy_policy.php">Privacy Policy</a></li>

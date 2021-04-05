@@ -222,7 +222,7 @@
         transition: all ease-in 0.5s;
     }
     .gf_dashboard_navs {
-        padding: 20px;
+        padding: 30px 20px;
     }
     .gf_dashboard_navs ul {
         padding: 0;
@@ -230,7 +230,7 @@
         list-style: none;
     }
     .gf_dashboard_navs ul li a {
-        font-size: 18px;
+        font-size: 17px;
         color: #fff;
         text-decoration: none;
         display: block;
@@ -243,7 +243,7 @@
         color: #ffffff;
     }
     .gf_dashboard_navs ul li a .nav_icon {
-        font-size: 25px;
+        font-size: 22px;
         vertical-align: middle;
         margin-right: 10px;
     }

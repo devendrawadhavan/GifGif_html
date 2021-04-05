@@ -37,9 +37,6 @@
 	    -webkit-box-shadow: 0 0 15px rgb(0 0 0 / 80%);
 	    -moz-box-shadow: 0 0 15px rgb(0 0 0 / 80%);
 	}
-	.mobile_sticky_ad_div{
-		display: none;
-	}
 }
 @media(max-width: 991px) {
 	/*=== header searchbar css ===*/
