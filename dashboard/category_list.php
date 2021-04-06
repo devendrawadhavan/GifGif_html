@@ -27,23 +27,30 @@
                    </div>
                </div>
                <!-- dashboard Header -->
-              <!-- Searchbar start -->
+               <!-- Searchbar start -->
                <div class="gif_dash_searchbar_box black_box">
-                   <div class="searchbar_dv">
-                        <input class="white_input_text" type="text" name="" placeholder="Search">
-                        <button type="submit" class="search_icon"><i class="fas fa-search"></i></button>
+                  <div class="row">
+                     <div class="col-lg-9 col-md-8 col-12">
+                       <div class="searchbar_dv">
+                            <input class="white_input_text" type="text" name="" placeholder="Search">
+                            <button type="submit" class="search_icon"><i class="fas fa-search"></i></button>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-4 col-12 search_right_side">
+                        <a href="add_category.php" class="dashboard_button">Add Category</a>
+                      </div>
                     </div>
                </div>
                <!-- Searchbar End -->
-               <div class="black_box gif_category_listing">
+               <div class="gif_category_listing">
                   <div class="gif_dasboard_table table-responsive">
-                    <table class="table">
+                    <table class="table dashboard_data_table">
                       <thead>
                         <tr><th>Name</th><th>Slug</th><th>Action</th></tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>people<span class="n_count">(3173)</span></td>
+                          <td>people<span class="n_count">(4317)</span></td>
                           <td>people</td>
                           <td class="tbl_action_btns">
                             <a href="#" class="a_icon"><i class="fas fa-pen"></i></a>
@@ -51,15 +58,7 @@
                           </td>
                         </tr>
                         <tr>
-                          <td>funny<span class="n_count">(2325)</span></td>
-                          <td>funny</td>
-                          <td class="tbl_action_btns">
-                            <a href="#" class="a_icon"><i class="fas fa-pen"></i></a>
-                            <a href="#" class="a_icon"><i class="far fa-trash-alt"></i></a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>animals<span class="n_count">(1559)</span></td>
+                          <td>animals<span class="n_count">(2072)</span></td>
                           <td>animals</td>
                           <td class="tbl_action_btns">
                             <a href="#" class="a_icon"><i class="fas fa-pen"></i></a>
@@ -67,7 +66,7 @@
                           </td>
                         </tr>
                         <tr>
-                          <td>other<span class="n_count">(1296)</span></td>
+                          <td>other<span class="n_count">(1587)</span></td>
                           <td>other</td>
                           <td class="tbl_action_btns">
                             <a href="#" class="a_icon"><i class="fas fa-pen"></i></a>
@@ -75,8 +74,16 @@
                           </td>
                         </tr>
                         <tr>
-                          <td>girl<span class="n_count">(1058)</span></td>
-                          <td>girl</td>
+                          <td>Anime<span class="n_count">(352)</span></td>
+                          <td>Anime</td>
+                          <td class="tbl_action_btns">
+                            <a href="#" class="a_icon"><i class="fas fa-pen"></i></a>
+                            <a href="#" class="a_icon"><i class="far fa-trash-alt"></i></a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Pictures<span class="n_count">(167)</span></td>
+                          <td>Pictures</td>
                           <td class="tbl_action_btns">
                             <a href="#" class="a_icon"><i class="fas fa-pen"></i></a>
                             <a href="#" class="a_icon"><i class="far fa-trash-alt"></i></a>

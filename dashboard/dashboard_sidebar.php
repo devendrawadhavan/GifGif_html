@@ -5,7 +5,7 @@
    <div class="gf_dashboard_navs">
        <ul>
            <li>
-            <a href="/GifGif/index.php">
+            <a href="../index.php">
               <span class="nav_icon"><i class="fas fa-eye"></i></span>
               <span class="nav_text">Visit website</span>
             </a>
@@ -23,7 +23,7 @@
             </a>
            </li>
            <li>
-            <a href="#">
+            <a href="approved_gifs.php">
               <span class="nav_icon"><i class="fas fa-images"></i></span>
               <span class="nav_text">Approved Gifs</span>
             </a>
@@ -41,13 +41,13 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="category_list.php">
               <span class="nav_icon"><i class="fas fa-clipboard-list"></i></span>
               <span class="nav_text">Categories</span>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="tags_list.php">
               <span class="nav_icon"><i class="fas fa-hashtag"></i></span>
               <span class="nav_text">Tags</span>
             </a>

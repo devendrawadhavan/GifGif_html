@@ -16,8 +16,8 @@
     <!-- plugins css -->
     <link href="assets/js/plugins/owl_carousel/owl.carousel.min.css" rel="stylesheet">
     <!-- plugins css -->
-    <link href="assets/css/style.css?ver=1.8" rel="stylesheet">
-    <link href="assets/css/responsive.css?ver=1.8" rel="stylesheet">
+    <link href="assets/css/style.css?ver=1.9" rel="stylesheet">
+    <link href="assets/css/responsive.css?ver=1.9" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -105,7 +105,7 @@
                 </ul>
                 <!-- show in mobile -->
                 <ul>
-                    <li><a href="javascript:void(0)">Add gif</a></li>
+                    <li><a href="dashboard/add_gif.php">Add gif</a></li>
                     <li><a href="about_us.php">About Us</a></li>
                     <li><a href="contact.php">contact Us</a></li>
                     <li><a href="privacy_policy.php">Privacy Policy</a></li>

@@ -27,7 +27,7 @@
                    </div>
                </div>
                <!-- dashboard Header -->
-               <div class="black_box add_gif_box">
+               <div class="black_box add_gif_form_box">
                   <div class="gif_dashboard_form add_gif_form">
                     <form>
                       <div class="form_group row">
@@ -141,8 +141,9 @@
                         <div class="input_group col-xl-10 col-lg-9 col-12">
                           <label class="img_upload_button">
                             <input class="white_input_text custome_file_upload_input" type='file' id="custome_file_upload_input" />
-                            Upload Image
+                            Choose File
                           </label>
+                          <div class="or_text">OR</div>
                         </div>
                       </div>
                       <div class="form_group row">
@@ -150,7 +151,7 @@
                           <label class="labels">External GIF URL</label>
                         </div>
                         <div class="input_group col-xl-10 col-lg-9 col-12">
-                            <input class="white_input_text custome_file_upload_url" type='text' placeholder="Enter Gif Url">
+                            <input class="white_input_text custome_file_upload_url" type='text' placeholder="Paste External GIF URL">
                         </div>
                       </div>
                       <div class="form_group row">
@@ -190,6 +191,12 @@
                               <option value="No-index, follow">No-index, follow</option>
                               <option value="No-index, no-follow">No-index, no-follow</option>
                           </select>
+                        </div>
+                      </div>
+                      <div class="button_group row">
+                        <div class="col-xl-2 col-lg-3 col-12"></div>
+                        <div class="input_group col-xl-10 col-lg-9 col-12">
+                          <button type="submit" class="dashboard_button upload_gif_btn">Upload</button>
                         </div>
                       </div>
                     </form>

@@ -8,7 +8,7 @@
         color: #ffffff;
         font-family: 'Quicksand', sans-serif;
         background: var(--gray_color);
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 400;
         margin: 0 !important;
         padding: 0 !important;
@@ -20,7 +20,7 @@
    p {
         line-height: 25px;
         color: #ffffff;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 400;
         margin-bottom: 15px;
     }
@@ -678,6 +678,11 @@
         color: var(--blue_color);
         margin-left: 3px;
         cursor: pointer;
+    }
+    .h_gif_overlay_text .activity_icons .a_icon:hover, 
+    .h_gif_overlay_text .activity_icons .a_icon:focus {
+        background: var(--blue_color);
+        color: #fff;
     }
     .h_gif_overlay_text .gif_title{
         width: 100%;

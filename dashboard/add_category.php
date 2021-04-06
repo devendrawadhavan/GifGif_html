@@ -27,7 +27,7 @@
                    </div>
                </div>
                <!-- dashboard Header -->
-               <div class="black_box add_category_box">
+               <div class="black_box add_category_form_box">
                   <div class="gif_dashboard_form add_category_form">
                     <form>
                       <div class="form_group row">
