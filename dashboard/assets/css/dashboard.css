@@ -224,11 +224,13 @@
     .gf_dashboard_wrapper {
         min-height: 100vh;
     }
-    .gf_dash_header{
+    .gf_dash_header {
         padding-left: 30px;
-        padding-right: 30px;
+        padding-right: 20px;
         padding-top: 30px;
-        display: none;
+    }
+    .gif_logo img{
+        max-height: 44px;
     }
     .dash_close_btn {
         display: inline-block;
@@ -314,8 +316,9 @@
     }
     .dash_page_header .dash_page_title h3 {
         margin-bottom: 0;
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 600;
+        text-transform: capitalize;
     }
     .l_user_dropdown {
         position: relative;
@@ -426,12 +429,15 @@
         color: #ffffff;
         border-radius: 2em;
     }
+    .gif_dashboard_form .form_group input[type="file"]{
+        padding-top: 10px;
+    }
     .gif_dashboard_form .form_group .custome_file_upload_url{
         text-align: center;
     }
     .gif_dashboard_form .form_group textarea {
         width: 100%;
-        height: 120px;
+        height: 100px;
         padding: 10px 15px;
         border: none;
         background: var(--gray_color);
@@ -463,6 +469,28 @@
     }
     .gif_dashboard_form .user_radiobox label + label {
         margin-left: 12px;
+    }
+    .gif_dashboard_form .reset_button {
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        background: var(--gray_color);
+        color: #ffffff;
+        height: 42px;
+        line-height: 42px;
+        border-radius: 2em;
+        padding: 0 20px;
+        border: none;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    .gif_dashboard_form .reset_button:hover {
+        background: var(--blue_color);
+        color: #ffffff;
+    }
+    .gif_dashboard_form .ck.ck-editor__main>.ck-editor__editable {
+        background: var(--gray_color);
+        border-radius: 0;
     }
     /*========= dashboard form css End ============*/
     /*========= Edit profile css End ============*/
@@ -544,15 +572,26 @@
     .gif_dasboard_table .table tr td, .gif_dasboard_table .table tr th {
         border-bottom: 1px solid #ccc;
         color: #fff;
-        padding: 10px 10px;
+        padding: 8px 10px;
         vertical-align: middle;
         background: transparent;
         border-top: none;
+        font-size: 14px;
     }
     .gif_dasboard_table .table tr th {
         border-top: 0;
         font-weight: 500;
-        font-size: 16px;
+    }
+    table.dataTable.no-footer {
+        border-bottom: none;
+    }
+    .gif_dasboard_table .table tr td select {
+        text-transform: capitalize;
+        background: var(--black_color);
+        border-radius: 3px;
+        color: #fff;
+        border: none;
+        height: 23px;
     }
     .gif_dasboard_table .table tr td .n_count {
         margin-left: 5px;
@@ -593,6 +632,47 @@
     }
     .gif_dash_searchbar_box .search_right_side {
         text-align: right;
+    }
+    .switch_checkbox {
+        margin: 0;
+        height: 26px;
+    }
+    .switch_checkbox .round_dv {
+        position: relative;
+        display: inline-block;
+        margin: 0;
+        width: 50px;
+        height: 26px;
+        background: var(--black_color);
+        border-radius: 2em;
+        -webkit-transition: all ease-in 0.25s;
+        -ms-transition: all ease-in 0.25s;
+        transition: all ease-in 0.25s;
+    }
+    .switch_checkbox .circles {
+        position: absolute;
+        left: 4px;
+        top: 4px;
+        height: 18px;
+        width: 18px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        -webkit-transition: all ease-in 0.25s;
+        -ms-transition: all ease-in 0.25s;
+        transition: all ease-in 0.25s;
+    }
+    .switch_checkbox input[type="checkbox"]{
+        display: none;
+    }
+    .switch_checkbox input[type="checkbox"]:checked ~ .round_dv {
+        background: var(--blue_color);
+    }
+    .switch_checkbox input[type="checkbox"]:checked ~ .round_dv .circles {
+        -webkit-transform: translateX(24px);
+        -ms-transform: translateX(24px);
+        -moz-transform: translateX(24px);
+        -o-transform: translateX(24px);
+        transform: translateX(24px);
     }
     /*========= dashboard Table css End ============*/
     /*========= dashboard Datatable css start ============*/
@@ -734,6 +814,22 @@
         visibility: visible;
     }
     /*========= Gif Listing css End ============*/
+    /*========= setting page css start ============*/
+    .gif_setting_form .form_heading {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .setting_form_box {
+        margin-bottom: 15px;
+    }
+    .gif_setting_form .input_group .upload_imgs {
+        max-height: 44px;
+        margin-top: 10px;
+    }
+    .gif_setting_form .input_group #fav_preview {
+        width: 32px;
+    }
+    /*========= setting page css start ============*/
 
     /*==== responsive css start ====*/
     @media(max-width: 1100px){
@@ -745,6 +841,9 @@
         .gf_dash_header {
             padding-left: 7px;
             padding-right: 7px;
+        }
+        .gif_logo img {
+            max-height: 35px;
         }
         .dash_close_btn {
             width: 35px;
@@ -793,9 +892,16 @@
         }
         /*========= dashboard sidebar css ============*/
     }
+    @media(max-width: 991px){
+        .setting_box_column {
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
     @media(max-width: 767px){
         *{font-size: 13px;}
-        .gif_dasboard_table .table tr th {
+        .gif_dasboard_table .table tr td, .gif_dasboard_table .table tr th{
             font-size: 13px;
         }
         .black_box {
@@ -813,6 +919,10 @@
         }
         .dash_page_header .dash_page_title h3 {
             font-size: 18px;
+        }
+        .gif_setting_form .form_heading {
+            margin-bottom: 10px;
+            font-size: 16px;
         }
         .dash_page_header .h_right_side {
             margin-top: 8px;
@@ -839,6 +949,12 @@
             padding: 0 10px;
             font-size: 13px;
             height: 35px;
+        }
+        .gif_dashboard_form .form_group input[type="file"] {
+            padding-top: 6px;
+        }
+        .gif_dashboard_form .form_group input.logo_input {
+            padding-top: 11px;
         }
         .gif_dashboard_form .form_group textarea {
             height: 100px;
@@ -888,7 +1004,17 @@
             font-size: 13px;
             min-width: 98px;
         }
-        
+    }
+    @media(max-width: 600px){
+        .setting_box_column {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .gif_setting_box {
+            padding: 15px;
+            margin-bottom: 14px;
+        }
     }
     @media(max-width: 414px){
         .gif_listing_colm {

@@ -10,7 +10,7 @@
               <!-- dashboard Header -->
                <div class="dash_page_header">
                    <div class="dash_page_title">
-                       <h3>Add New Category</h3>
+                       <h3>All Users</h3>
                    </div>
                    <div class="h_right_side">
                        <div class="l_user_dropdown">
@@ -43,38 +43,106 @@
                   <div class="gif_dasboard_table table-responsive">
                     <table class="table dashboard_data_table">
                       <thead>
-                        <tr><th>Username</th><th>Role</th><th>Email</th></tr>
+                        <tr>
+                          <th>Username</th><th>Role</th><th>Email</th><th>Active</th><th>Action</th>
+                        </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td>Vicky Makkad</td>
                           <td><span class="role_text">Administrator</span></td>
                           <td>vmakkadd@gmail.com</td>
+                          <td>
+                            <label class="switch_checkbox">
+                              <input type="checkbox" name="active_user" value="active">
+                              <span class="round_dv">
+                                <span class="circles"></span>
+                              </span>
+                            </label>
+                          </td>
+                          <td class="tbl_action_btns">
+                            <a href="#" class="a_icon"><i class="far fa-trash-alt"></i></a>
+                          </td>
                         </tr>
                         <tr>
                           <td>Saurav Roy</td>
                           <td><span class="role_text">Administrator</span></td>
                           <td>saurav.roy31@gmail.com</td>
+                          <td>
+                            <label class="switch_checkbox">
+                              <input type="checkbox" name="active_user" value="active">
+                              <span class="round_dv">
+                                <span class="circles"></span>
+                              </span>
+                            </label>
+                          </td>
+                          <td class="tbl_action_btns">
+                            <a href="#" class="a_icon"><i class="far fa-trash-alt"></i></a>
+                          </td>
                         </tr>
                         <tr>
                           <td>Ruslan</td>
                           <td><span class="role_text">Administrator</span></td>
                           <td>testruslan@gmail.com</td>
+                          <td>
+                            <label class="switch_checkbox">
+                              <input type="checkbox" name="active_user" value="active">
+                              <span class="round_dv">
+                                <span class="circles"></span>
+                              </span>
+                            </label>
+                          </td>
+                          <td class="tbl_action_btns">
+                            <a href="#" class="a_icon"><i class="far fa-trash-alt"></i></a>
+                          </td>
                         </tr>
                         <tr>
                           <td>jesenijaomanovic@yahoo.it</td>
                           <td><span class="role_text">user</span></td>
                           <td>jesenijaomanovic@yahoo.it</td>
+                          <td>
+                            <label class="switch_checkbox">
+                              <input type="checkbox" name="active_user" value="active">
+                              <span class="round_dv">
+                                <span class="circles"></span>
+                              </span>
+                            </label>
+                          </td>
+                          <td class="tbl_action_btns">
+                            <a href="#" class="a_icon"><i class="far fa-trash-alt"></i></a>
+                          </td>
                         </tr>
                         <tr>
                           <td>sebaljantun@gmail.com</td>
                           <td><span class="role_text">Administrator</span></td>
                           <td>sebaljantun@gmail.com</td>
+                          <td>
+                            <label class="switch_checkbox">
+                              <input type="checkbox" name="active_user" value="active">
+                              <span class="round_dv">
+                                <span class="circles"></span>
+                              </span>
+                            </label>
+                          </td>
+                          <td class="tbl_action_btns">
+                            <a href="#" class="a_icon"><i class="far fa-trash-alt"></i></a>
+                          </td>
                         </tr>
                         <tr>
                           <td>saurav.roy@landocsventures.com</td>
                           <td><span class="role_text">Administrator</span></td>
                           <td>saurav.roy@landocsventures.com</td>
+                          <td>
+                            <label class="switch_checkbox">
+                              <input type="checkbox" name="active_user" value="active">
+                              <span class="round_dv">
+                                <span class="circles"></span>
+                              </span>
+                            </label>
+                          </td>
+                          <td class="tbl_action_btns">
+                            <a href="#" class="a_icon"><i class="far fa-trash-alt"></i></a>
+                          </td>
                         </tr>
                       </tbody>
                     </table>

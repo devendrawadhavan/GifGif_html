@@ -35,34 +35,40 @@
                         <div class="col-xl-2 col-lg-3 col-12">
                           <label class="labels">Username</label>
                         </div>
-                        <div class="input_group col-xl-10 col-lg-9 col-12">
-                          <input class="white_input_text" type="text" name="title" placeholder="Enter Username">
+                        <div class="col-xl-10 col-lg-9 col-12">
+                          <div class="input_group">
+                            <input class="white_input_text" type="text" name="title" placeholder="Enter Username">
+                          </div>
                         </div>
                       </div>
                       <div class="form_group row">
                         <div class="col-xl-2 col-lg-3 col-12">
                           <label class="labels">Email</label>
                         </div>
-                        <div class="input_group col-xl-10 col-lg-9 col-12">
-                          <input class="white_input_text" type="email" name="email" placeholder="Enter Email Id">
+                        <div class="col-xl-10 col-lg-9 col-12">
+                          <div class="input_group">
+                            <input class="white_input_text" type="email" name="email" placeholder="Enter Email Id">
+                          </div>
                         </div>
                       </div>
                       <div class="form_group row">
                         <div class="col-xl-2 col-lg-3 col-12">
                           <label class="labels">User Role</label>
                         </div>
-                        <div class="input_group col-xl-10 col-lg-9 col-12">
-                          <div class="radio_box user_radiobox">
-                            <label>
-                              <input type="radio" name="User-Role" value="Administrator">
-                              <span class="r_box"></span>
-                              <span class="r_text">Administrator</span>
-                            </label>
-                            <label>
-                              <input type="radio" name="User-Role" value="user">
-                              <span class="r_box"></span>
-                              <span class="r_text">User</span>
-                            </label>
+                        <div class="col-xl-10 col-lg-9 col-12">
+                          <div class="input_group">
+                            <div class="radio_box user_radiobox">
+                              <label>
+                                <input type="radio" name="User-Role" value="Administrator">
+                                <span class="r_box"></span>
+                                <span class="r_text">Administrator</span>
+                              </label>
+                              <label>
+                                <input type="radio" name="User-Role" value="user">
+                                <span class="r_box"></span>
+                                <span class="r_text">User</span>
+                              </label>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -70,24 +76,30 @@
                         <div class="col-xl-2 col-lg-3 col-12">
                           <label class="labels">Password</label>
                         </div>
-                        <div class="input_group col-xl-10 col-lg-9 col-12">
-                          <input class="white_input_text" type="password" name="pass" placeholder="Password">
+                        <div class="col-xl-10 col-lg-9 col-12">
+                          <div class="input_group">
+                            <input class="white_input_text" type="password" name="pass" placeholder="Password">
+                          </div>
                         </div>
                       </div>
                       <div class="form_group row">
                         <div class="col-xl-2 col-lg-3 col-12">
                           <label class="labels">Confirm Password</label>
                         </div>
-                        <div class="input_group col-xl-10 col-lg-9 col-12">
-                          <input class="white_input_text" type="password" name="pass" placeholder="Confirm Password">
+                        <div class="col-xl-10 col-lg-9 col-12">
+                          <div class="input_group">
+                            <input class="white_input_text" type="password" name="pass" placeholder="Confirm Password">
+                          </div>
                         </div>
                       </div>
                       <div class="button_group row">
                         <div class="col-xl-2 col-lg-3 col-12">
                           <label class="labels"></label>
                         </div>
-                        <div class="input_group col-xl-10 col-lg-9 col-12">
-                          <button class="dashboard_button update_prof_btn" type="submit">create user</button>
+                        <div class="col-xl-10 col-lg-9 col-12">
+                          <div class="input_group">
+                            <button class="dashboard_button update_prof_btn" type="submit">create user</button>
+                          </div>
                         </div>
                       </div>
                     </form>

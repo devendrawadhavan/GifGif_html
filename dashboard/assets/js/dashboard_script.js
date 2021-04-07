@@ -33,26 +33,65 @@
     $(".profile_upload_input").change(function() {
       readURL2(this);
     });
+    //logo upload
+    $(".logo_upload_input").change(function() {
+      logoupload(this);
+    });
+    //favicon upload
+    $(".fav_upload_input").change(function() {
+      favupload(this);
+    });
+    //Ck Editor
+    ClassicEditor
+    .create( document.querySelector('#gif_editors'), {
+      // toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
+    } )
+    .then( editor => {
+      window.editor = editor;
+    } )
+    .catch( err => {
+      console.error( err.stack );
+    } );
 })(jQuery);
+//Gif Upload function
 function readURL(input) {
   if (input.files && input.files[0]) {
     var reader = new FileReader();
-    
     reader.onload = function(e) {
       $('#custom_img_preview').attr('src', e.target.result);
+    }
+    reader.readAsDataURL(input.files[0]); // convert to base64 string
+  }
+}
+//profile function
+function readURL2(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      $('#profile_photo_view').attr('src', e.target.result);
     }
     
     reader.readAsDataURL(input.files[0]); // convert to base64 string
   }
 }
-function readURL2(input) {
+
+//logo upload function
+function logoupload(input) {
   if (input.files && input.files[0]) {
     var reader = new FileReader();
-    
     reader.onload = function(e) {
-      $('#profile_photo_view').attr('src', e.target.result);
+      $('#logo_preview').attr('src', e.target.result);
     }
-    
+    reader.readAsDataURL(input.files[0]); // convert to base64 string
+  }
+}
+//fav upload function
+function favupload(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      $('#fav_preview').attr('src', e.target.result);
+    }
     reader.readAsDataURL(input.files[0]); // convert to base64 string
   }
 }

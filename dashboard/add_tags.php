@@ -34,32 +34,40 @@
                         <div class="col-xl-2 col-lg-3 col-12">
                           <label class="labels">Name</label>
                         </div>
-                        <div class="input_group col-xl-10 col-lg-9 col-12">
-                          <input class="white_input_text" type="text" name="title" placeholder="Category Name">
+                        <div class="col-xl-10 col-lg-9 col-12">
+                          <div class="input_group">
+                            <input class="white_input_text" type="text" name="title" placeholder="Category Name">
+                          </div>
                         </div>
                       </div>
                       <div class="form_group row">
                         <div class="col-xl-2 col-lg-3 col-12">
                           <label class="labels">Slug</label>
                         </div>
-                        <div class="input_group col-xl-10 col-lg-9 col-12">
-                          <input class="white_input_text" type="text" name="c_slug" placeholder="Category Slug">
+                        <div class="col-xl-10 col-lg-9 col-12">
+                          <div class="input_group">
+                            <input class="white_input_text" type="text" name="c_slug" placeholder="Category Slug">
+                          </div>
                         </div>
                       </div>
                       <div class="form_group row">
                         <div class="col-xl-2 col-lg-3 col-12">
                           <label class="labels">Description</label>
                         </div>
-                        <div class="input_group col-xl-10 col-lg-9 col-12">
-                          <textarea class="white_input_text" name="c_desc" placeholder="Category Description"></textarea>
+                        <div class="col-xl-10 col-lg-9 col-12">
+                          <div class="input_group">
+                            <textarea class="white_input_text" name="c_desc" placeholder="Category Description"></textarea>
+                          </div>
                         </div>
                       </div>
                       <div class="button_group row">
                         <div class="col-xl-2 col-lg-3 col-12">
                           <label class="labels"></label>
                         </div>
-                        <div class="input_group col-xl-10 col-lg-9 col-12">
-                          <button class="dashboard_button tag_submit" type="submit">Add Tag</button>
+                        <div class="col-xl-10 col-lg-9 col-12">
+                          <div class="input_group">
+                            <button class="dashboard_button tag_submit" type="submit">Add Tag</button>
+                          </div>
                         </div>
                       </div>
                     </form>

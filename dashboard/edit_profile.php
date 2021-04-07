@@ -46,40 +46,50 @@
                         <div class="col-xl-2 col-lg-3 col-12">
                           <label class="labels">Username</label>
                         </div>
-                        <div class="input_group col-xl-10 col-lg-9 col-12">
-                          <input class="white_input_text" type="text" name="title" value="jhonDoe">
+                        <div class="col-xl-10 col-lg-9 col-12">
+                          <div class="input_group">
+                            <input class="white_input_text" type="text" name="title" value="jhonDoe">
+                          </div>
                         </div>
                       </div>
                       <div class="form_group row">
                         <div class="col-xl-2 col-lg-3 col-12">
                           <label class="labels">Email</label>
                         </div>
-                        <div class="input_group col-xl-10 col-lg-9 col-12">
-                          <input class="white_input_text" type="email" name="email" value="jhonDoe@gmail.com">
+                        <div class="col-xl-10 col-lg-9 col-12">
+                          <div class="input_group">
+                            <input class="white_input_text" type="email" name="email" value="jhonDoe@gmail.com">
+                          </div>
                         </div>
                       </div>
                       <div class="form_group row">
                         <div class="col-xl-2 col-lg-3 col-12">
                           <label class="labels">Password</label>
                         </div>
-                        <div class="input_group col-xl-10 col-lg-9 col-12">
-                          <input class="white_input_text" type="password" name="pass" placeholder="New Password">
+                        <div class="col-xl-10 col-lg-9 col-12">
+                          <div class="input_group">
+                            <input class="white_input_text" type="password" name="pass" placeholder="New Password">
+                          </div>
                         </div>
                       </div>
                       <div class="form_group row">
                         <div class="col-xl-2 col-lg-3 col-12">
                           <label class="labels">Confirm Password</label>
                         </div>
-                        <div class="input_group col-xl-10 col-lg-9 col-12">
-                          <input class="white_input_text" type="password" name="pass" placeholder="Confirm Password">
+                        <div class="col-xl-10 col-lg-9 col-12">
+                          <div class="input_group">
+                            <input class="white_input_text" type="password" name="pass" placeholder="Confirm Password">
+                          </div>
                         </div>
                       </div>
                       <div class="button_group row">
                         <div class="col-xl-2 col-lg-3 col-12">
                           <label class="labels"></label>
                         </div>
-                        <div class="input_group col-xl-10 col-lg-9 col-12">
-                          <button class="dashboard_button update_prof_btn" type="submit">Update</button>
+                        <div class="col-xl-10 col-lg-9 col-12">
+                          <div class="input_group">
+                            <button class="dashboard_button update_prof_btn" type="submit">Update</button>
+                          </div>
                         </div>
                       </div>
                     </form>
