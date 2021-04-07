@@ -41,17 +41,6 @@
     $(".fav_upload_input").change(function() {
       favupload(this);
     });
-    //Ck Editor
-    ClassicEditor
-    .create( document.querySelector('#gif_editors'), {
-      // toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
-    } )
-    .then( editor => {
-      window.editor = editor;
-    } )
-    .catch( err => {
-      console.error( err.stack );
-    } );
 })(jQuery);
 //Gif Upload function
 function readURL(input) {

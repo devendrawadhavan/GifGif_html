@@ -18,9 +18,9 @@
                                 <img src="assets/images/user_icon.png" alt="User" class="img-fluid"><span class="user_title">Saurav Roy</span>
                             </a>
                             <ul class="l_user_dropdownmenu">
-                                <li><a href="#"><i class="fas fa-user-edit"></i>Edit profile</a></li>
-                                <li><a href="#"><i class="fas fa-user-plus"></i>add New user</a></li>
-                                <li><a href="#"><i class="fas fa-user-friends"></i>all user</a></li>
+                                <li><a href="edit_profile.php"><i class="fas fa-user-edit"></i>Edit profile</a></li>
+                                <li><a href="add_user.php"><i class="fas fa-user-plus"></i>add New user</a></li>
+                                <li><a href="all_users.php"><i class="fas fa-user-friends"></i>all user</a></li>
                                 <li><a href="#"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
                             </ul>
                         </div>

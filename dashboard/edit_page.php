@@ -18,9 +18,9 @@
                                 <img src="assets/images/user_icon.png" alt="User" class="img-fluid"><span class="user_title">Saurav Roy</span>
                             </a>
                             <ul class="l_user_dropdownmenu">
-                                <li><a href="#"><i class="fas fa-user-edit"></i>Edit profile</a></li>
-                                <li><a href="#"><i class="fas fa-user-plus"></i>add New user</a></li>
-                                <li><a href="#"><i class="fas fa-user-friends"></i>all user</a></li>
+                                <li><a href="edit_profile.php"><i class="fas fa-user-edit"></i>Edit profile</a></li>
+                                <li><a href="add_user.php"><i class="fas fa-user-plus"></i>add New user</a></li>
+                                <li><a href="all_users.php"><i class="fas fa-user-friends"></i>all user</a></li>
                                 <li><a href="#"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
                             </ul>
                         </div>
@@ -58,8 +58,10 @@
                           <div class="form_group col-lg-12 col-12">
                             <label class="labels">Description</label>
                             <div class="input_group">
-                              <textarea id="gif_editors"><p><a href="https://www.gifgifmagazine.com/">www.gifgifmagazine.com</a> (“gifgifmagazine”, “we”, “us”, our”, “Website”) is a free GIF sharing website allowing users to share and like GIFs across social media. Users of this Website (“users” or “you”) include all visitors who access the contents of the Website, including but not limited to users who share GIFs on this Website. Your subscription to our services is governed by the following terms of service (“Terms”) as well as our Privacy Policy. If you don’t agree with any of the Terms below, please do not use our file conversion services.
-                        </p></textarea>
+                                <div id="editor">
+                                  <h1>Hello world!</h1>
+                                  <p>ddddd</a>.</p>
+                                </div>
                             </div>
                           </div>
                           <div class="form_group col-lg-12 col-12">
