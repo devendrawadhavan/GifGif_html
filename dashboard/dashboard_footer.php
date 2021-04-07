@@ -16,8 +16,5 @@
     <!-- CkEditor js file-->
     <script src="assets/js/dashboard_script.js?ver=1.9"></script>
     <!-- bootstrap js file-->
-    <script>
-    initSample();
-   </script>
 </body>
 </html>

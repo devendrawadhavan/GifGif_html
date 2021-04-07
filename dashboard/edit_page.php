@@ -98,3 +98,6 @@
     </div>
      <!-- Dashboard Wrapper End -->
     <?php include 'dashboard_footer.php';?>
+    <script>
+    initSample();
+   </script>
