@@ -62,7 +62,7 @@
                         </tr>
                         <tr>
                           <td>Cookie Policy</td>
-                          <td>Privacy-Policy</td>
+                          <td>Cookie-Policy</td>
                           <td>02-04-2021 3:00 PM</td>
                           <td><select>
                             <option value="active">active</option>
@@ -74,7 +74,7 @@
                         </tr>
                         <tr>
                           <td>Terms Of Service</td>
-                          <td>Privacy-Policy</td>
+                          <td>Terms-Service</td>
                           <td>02-04-2021 3:00 PM</td>
                           <td><select>
                             <option value="active">active</option>
