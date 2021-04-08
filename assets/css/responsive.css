@@ -171,6 +171,9 @@
 		-webkit-transition: all ease-in 0.25s;
 		-moz-transition: all ease-in 0.25s;
 	}
+	.fix_social_icons.open_social_dv {
+	    z-index: 1;
+	}
 	.fix_social_icons.open_social_dv .fix_social_icons_dv {
 		transform: translateX(0px);
 		-webkit-transform: translateX(0px);
@@ -211,10 +214,10 @@
 	    font-size: 14px;
 	}
 	.gif_single_img .gif_navs .gif_nav {
-	    font-size: 20px;
-	    width: 40px;
-	    height: 40px;
-	    line-height: 40px;
+	    font-size: 15px;
+	    width: 35px;
+	    height: 35px;
+	    line-height: 35px;
 	    margin-top: -20px;
 	}
 	/*==== like fav css ====*/
@@ -227,8 +230,18 @@
 	    left: 0;
 	    width: 100%;
 	    background: var(--blue_color);
-	    padding: 5px;
+	    padding: 3px;
 	    border-radius: 2em;
+	}
+	.searchbar_dv input {
+	    height: 40px;
+	    font-size: 14px;
+	    padding: 0 30px 0 11px;
+	}
+	.searchbar_dv .search_icon {
+	    right: 11px;
+	    top: 11px;
+	    font-size: 17px;
 	}
 	/*=== Heder searchbar ===*/
 	.gf_asside_wrapper, .gif_detail_page_wrapper {
