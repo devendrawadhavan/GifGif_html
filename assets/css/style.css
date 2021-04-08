@@ -276,6 +276,8 @@
     .site_logo {
         display: inline-block;
         padding: 0;
+        position: relative;
+        z-index: 1;
     }
     .site_logo a {
         display: inline-block;

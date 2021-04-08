@@ -144,14 +144,14 @@
 	}
 	.fix_social_icons .s_open_icon {
 	    display: inline-block;
-		transition: all ease-in 0.15s;
-		-webkit-transition: all ease-in 0.15s;
-		-moz-transition: all ease-in 0.15s;
+	    transition: all ease-in 0.15s;
+	    -webkit-transition: all ease-in 0.15s;
+	    -moz-transition: all ease-in 0.15s;
 	    margin-top: 10px;
-	    width: 40px;
-	    height: 40px;
-	    line-height: 40px;
-	    font-size: 23px;
+	    width: 35px;
+	    height: 35px;
+	    line-height: 36px;
+	    font-size: 20px;
 	    text-align: center;
 	    background: #ffffff;
 	    color: var(--blue_color);
