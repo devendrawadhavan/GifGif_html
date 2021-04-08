@@ -19,7 +19,7 @@
                         <!-- only for mobile screen -->
                         <div class="sidebar_mobile_tabs">
                             <ul class="gf_sidebar_tabs">
-                                <li class="pls_iconss"><img src="assets/images/icons/playlist-plus.svg"></li>
+                                <li class="pls_iconss"><img src="assets/images/icons/playlist-plus.svg" alt="playlist"></li>
                                 <li class="tab_link account_link" data-tab="w_account_tab">Top Accounts</li>
                                 <li class="tab_link tag_link" data-tab="w_tags_tab">Tags</li>
                             </ul>
