@@ -25,8 +25,12 @@
                                                 <img src="assets/images/Gif/gif4.gif" alt="Gif" class="img-fluid">
                                             </div>
                                             <div class="gif_navs">
-                                                <span class="gif_nav prev_nav"><i class="fas fa-chevron-left"></i></span>
-                                                <span class="gif_nav next_nav"></i><i class="fas fa-chevron-right"></i></span>
+                                                <span class="gif_nav prev_nav">
+                                                    <i class="fas fa-chevron-left"></i>
+                                                </span>
+                                                <span class="gif_nav next_nav">
+                                                    <i class="fas fa-chevron-right"></i>
+                                                </span>
                                             </div>
                                             <!-- like div -->
                                             <div class="like_fav_dv">
