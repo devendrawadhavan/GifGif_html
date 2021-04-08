@@ -53,7 +53,7 @@
                           <td>people<span class="n_count">(4317)</span></td>
                           <td>people</td>
                           <td class="tbl_action_btns">
-                            <a href="#" class="a_icon"><i class="fas fa-pen"></i></a>
+                            <a href="edit_category.php" class="a_icon"><i class="fas fa-pen"></i></a>
                             <a href="#" class="a_icon"><i class="far fa-trash-alt"></i></a>
                           </td>
                         </tr>
@@ -61,7 +61,7 @@
                           <td>animals<span class="n_count">(2072)</span></td>
                           <td>animals</td>
                           <td class="tbl_action_btns">
-                            <a href="#" class="a_icon"><i class="fas fa-pen"></i></a>
+                            <a href="edit_category.php" class="a_icon"><i class="fas fa-pen"></i></a>
                             <a href="#" class="a_icon"><i class="far fa-trash-alt"></i></a>
                           </td>
                         </tr>
@@ -69,7 +69,7 @@
                           <td>other<span class="n_count">(1587)</span></td>
                           <td>other</td>
                           <td class="tbl_action_btns">
-                            <a href="#" class="a_icon"><i class="fas fa-pen"></i></a>
+                            <a href="edit_category.php" class="a_icon"><i class="fas fa-pen"></i></a>
                             <a href="#" class="a_icon"><i class="far fa-trash-alt"></i></a>
                           </td>
                         </tr>
@@ -77,7 +77,7 @@
                           <td>Anime<span class="n_count">(352)</span></td>
                           <td>Anime</td>
                           <td class="tbl_action_btns">
-                            <a href="#" class="a_icon"><i class="fas fa-pen"></i></a>
+                            <a href="edit_category.php" class="a_icon"><i class="fas fa-pen"></i></a>
                             <a href="#" class="a_icon"><i class="far fa-trash-alt"></i></a>
                           </td>
                         </tr>
@@ -85,7 +85,7 @@
                           <td>Pictures<span class="n_count">(167)</span></td>
                           <td>Pictures</td>
                           <td class="tbl_action_btns">
-                            <a href="#" class="a_icon"><i class="fas fa-pen"></i></a>
+                            <a href="edit_category.php" class="a_icon"><i class="fas fa-pen"></i></a>
                             <a href="#" class="a_icon"><i class="far fa-trash-alt"></i></a>
                           </td>
                         </tr>
