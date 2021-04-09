@@ -28,7 +28,9 @@
         }
     });
     //Datatable js 
-    $('.dashboard_data_table').DataTable();
+    $('.dashboard_data_table').DataTable({
+      responsive: true
+    });
     //profile photo preview
     $(".profile_upload_input").change(function() {
       readURL2(this);

@@ -43,7 +43,7 @@
                </div>
                <!-- Searchbar End -->
                <div class="gif_category_listing">
-                  <div class="gif_dasboard_table table-responsive">
+                  <div class="gif_dasboard_table">
                     <table class="table dashboard_data_table">
                       <thead>
                         <tr><th>Name</th><th>Slug</th><th>Action</th></tr>

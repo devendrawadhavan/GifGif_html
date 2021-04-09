@@ -28,7 +28,7 @@
                </div>
                <!-- dashboard Header -->
                <div class="gif_page_tables">
-                  <div class="gif_dasboard_table table-responsive">
+                  <div class="gif_dasboard_table">
                     <table class="table dashboard_data_table">
                       <thead>
                         <tr>

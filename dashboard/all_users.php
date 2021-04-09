@@ -40,7 +40,7 @@
                </div>
                <!-- Searchbar End -->
                <div class="gif_all_users_table">
-                  <div class="gif_dasboard_table table-responsive">
+                  <div class="gif_dasboard_table">
                     <table class="table dashboard_data_table">
                       <thead>
                         <tr>
