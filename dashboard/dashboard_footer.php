@@ -14,7 +14,7 @@
     <script src="assets/js/ckeditor/ckeditor.js"></script>
     <script src="assets/js/ckeditor/samples/js/sample.js"></script>
     <!-- CkEditor js file-->
-    <script src="assets/js/dashboard_script.js?ver=1.9"></script>
+    <script src="assets/js/dashboard_script.js?ver=2.1"></script>
     <!-- bootstrap js file-->
 </body>
 </html>

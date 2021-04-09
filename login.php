@@ -21,7 +21,8 @@
                                 <a href="forget_password.php">forget password?</a>
                             </div>
                             <div class="button_group">
-                                <button type="submit" class="site_button login_btn">Login</button>
+                                <!-- <button type="submit" class="site_button login_btn">Login</button> -->
+                                <a href="dashboard/add_gif.php" class="site_button login_btn">Login</a>
                             </div>
                             <div class="account_reg_text">
                                 <p>Don't have an account <a href="register.php">Register Now</a></p>

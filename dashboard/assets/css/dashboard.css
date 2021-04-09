@@ -588,6 +588,9 @@
         border-top: 0;
         font-weight: 500;
     }
+    .gif_dasboard_table .table tr td:focus {
+        outline: none;
+    }
     table.dataTable.no-footer {
         border-bottom: none;
     }
@@ -686,12 +689,15 @@
         width: 100%;
     }
     .gif_dasboard_table .table tr td.child {
-        padding-left: 0;
-        padding-right: 0;
         padding-bottom: 0;
     }
     table.dataTable>tbody>tr.child ul.dtr-details>li>span {
         vertical-align: middle;
+    }
+    table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before, 
+    table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control:before {
+        border: 1px solid white;
+        background-color: var(--blue_color);
     }
     .dataTables_wrapper .dataTables_length, 
     .dataTables_wrapper .dataTables_filter, 
@@ -717,7 +723,10 @@
         box-sizing: border-box;
         display: inline-block;
         min-width: 36px;
-        padding: 8px 12px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        padding: 0 12px;
         color: var(--blue_color);
         border: 1px solid var(--blue_color);
         background: transparent;
@@ -983,6 +992,10 @@
             padding: 10px 10px;
             font-size: 13px;
         }
+        .gif_dashboard_form .img_preview_dv img {
+            width: 80px;
+            height: 80px;
+        }
         .img_upload_button {
             height: 35px;
             line-height: 35px;
@@ -1037,6 +1050,20 @@
             padding: 15px;
             margin-bottom: 14px;
         }
+        /*=== switch checkbox css ===*/
+        .switch_checkbox {
+            margin: 0;
+            height: 24px;
+        }
+        .switch_checkbox .round_dv {
+            width: 48px;
+            height: 24px;
+        }
+        .switch_checkbox .circles {
+            height: 16px;
+            width: 16px;
+        }
+        /*=== switch checkbox css ===*/
     }
     @media(max-width: 414px){
         .gif_listing_colm {
