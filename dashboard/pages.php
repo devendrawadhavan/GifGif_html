@@ -40,10 +40,14 @@
                           <td>Page DMCA</td>
                           <td>Page-DMCA</td>
                           <td>02-04-2021 3:00 PM</td>
-                          <td><select>
-                            <option value="active">active</option>
-                            <option value="inactive">inactive</option>
-                          </select></td>
+                          <td>
+                            <label class="switch_checkbox">
+                              <input type="checkbox" name="active_user" value="active">
+                              <span class="round_dv">
+                                <span class="circles"></span>
+                              </span>
+                            </label>
+                          </td>
                           <td class="tbl_action_btns">
                             <a href="edit_page.php" class="a_icon"><i class="fas fa-pen"></i></a>
                           </td>
@@ -52,10 +56,14 @@
                           <td>Privacy Policy</td>
                           <td>Privacy-Policy</td>
                           <td>02-04-2021 3:00 PM</td>
-                          <td><select>
-                            <option value="active">active</option>
-                            <option value="inactive">inactive</option>
-                          </select></td>
+                          <td>
+                            <label class="switch_checkbox">
+                              <input type="checkbox" name="active_user" value="active">
+                              <span class="round_dv">
+                                <span class="circles"></span>
+                              </span>
+                            </label>
+                          </td>
                           <td class="tbl_action_btns">
                             <a href="edit_page.php" class="a_icon"><i class="fas fa-pen"></i></a>
                           </td>
@@ -64,10 +72,14 @@
                           <td>Cookie Policy</td>
                           <td>Cookie-Policy</td>
                           <td>02-04-2021 3:00 PM</td>
-                          <td><select>
-                            <option value="active">active</option>
-                            <option value="inactive">inactive</option>
-                          </select></td>
+                          <td>
+                            <label class="switch_checkbox">
+                              <input type="checkbox" name="active_user" value="active">
+                              <span class="round_dv">
+                                <span class="circles"></span>
+                              </span>
+                            </label>
+                          </td>
                           <td class="tbl_action_btns">
                             <a href="edit_page.php" class="a_icon"><i class="fas fa-pen"></i></a>
                           </td>
@@ -76,10 +88,14 @@
                           <td>Terms Of Service</td>
                           <td>Terms-Service</td>
                           <td>02-04-2021 3:00 PM</td>
-                          <td><select>
-                            <option value="active">active</option>
-                            <option value="inactive">inactive</option>
-                          </select></td>
+                          <td>
+                            <label class="switch_checkbox">
+                              <input type="checkbox" name="active_user" value="active">
+                              <span class="round_dv">
+                                <span class="circles"></span>
+                              </span>
+                            </label>
+                          </td>
                           <td class="tbl_action_btns">
                             <a href="edit_page.php" class="a_icon"><i class="fas fa-pen"></i></a>
                           </td>
