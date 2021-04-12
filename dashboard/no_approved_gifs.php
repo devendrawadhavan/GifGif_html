@@ -50,13 +50,6 @@
                                         <a href="#" class="icons"><i class="far fa-trash-alt"></i></a>
                                     </div>
                                     <div class="gif_title">
-                                       <label class="g_status_button">
-                                          <input type="checkbox" name="gif_status" value="active">
-                                          <span class="round_dv">
-                                          <span class="texts d_text">Deny</span><span class="circles"></span>
-                                          <span class="texts a_text">Accept</span>
-                                          </span>
-                                        </label>
                                         <h4><a href="../gif_single_page.php">Adorable kittens</a></h4>
                                     </div>
                                 </div>
@@ -76,23 +69,7 @@
                                         <a href="#" class="icons"><i class="far fa-trash-alt"></i></a>
                                     </div>
                                     <div class="gif_title">
-                                      <form>
-                                        <div class="g_status_button2">
-                                          <label class="labels">
-                                            <input type="radio" name="gif_status" value="Accept">
-                                            <span class="round_dv">
-                                              <span class="texts">Accept</span><i class="fas fa-check"></i>
-                                            </span>
-                                          </label>
-                                          <label class="labels deny">
-                                            <input type="radio" name="gif_status" value="Deny">
-                                            <span class="round_dv">
-                                              <span class="texts">Deny</span><i class="fas fa-times"></i>
-                                            </span>
-                                          </label>
-                                        </div>
-                                      </form>
-                                      <h4><a href="../gif_single_page.php">Adorable kittens</a></h4>
+                                        <h4><a href="../gif_single_page.php">Adorable kittens</a></h4>
                                     </div>
                                 </div>
                               </div>
@@ -111,23 +88,7 @@
                                         <a href="#" class="icons"><i class="far fa-trash-alt"></i></a>
                                     </div>
                                     <div class="gif_title">
-                                      <form>
-                                        <div class="g_status_button2">
-                                          <label class="labels">
-                                            <input type="radio" name="gif_status" value="Accept">
-                                            <span class="round_dv">
-                                              <span class="texts">Accept</span><i class="fas fa-check"></i>
-                                            </span>
-                                          </label>
-                                          <label class="labels deny">
-                                            <input type="radio" name="gif_status" value="Deny">
-                                            <span class="round_dv">
-                                              <span class="texts">Deny</span><i class="fas fa-times"></i>
-                                            </span>
-                                          </label>
-                                        </div>
-                                      </form>
-                                      <h4><a href="../gif_single_page.php">Adorable kittens</a></h4>
+                                        <h4><a href="../gif_single_page.php">Adorable kittens</a></h4>
                                     </div>
                                 </div>
                               </div>

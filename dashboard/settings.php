@@ -58,12 +58,12 @@
                               <input class="white_input_text" type="url" name="title" value="https://www.reddit.com/">
                             </div>
                           </div>
-                          <div class="form_group col-lg-6 col-12">
+                          <!-- <div class="form_group col-lg-6 col-12">
                             <label class="labels">Whatsapp</label>
                             <div class="input_group">
                               <input class="white_input_text" type="text" name="title" value="1234567895">
                             </div>
-                          </div>
+                          </div> -->
                         </div>
                     </div>
                   </div>

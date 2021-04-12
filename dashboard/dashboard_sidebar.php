@@ -39,7 +39,7 @@
           </a>
          </li>
         <li>
-          <a href="approved_gifs.php">
+          <a href="no_approved_gifs.php">
             <span class="nav_icon"><i class="fas fa-images"></i></span>
             <span class="nav_text">Not Approved Gifs</span>
           </a>
