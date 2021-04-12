@@ -848,78 +848,9 @@
         visibility: visible;
     }
     /*========= Gif Listing css End ============*/
-    /*========= Gif Status Button start ============*/
-    .g_status_button {
-        margin: 0;
-        height: 28px;
-        font-size: 13px;
-    }
-    .g_status_button input[type="checkbox"]{
-        display: none;
-    }
-    .g_status_button .round_dv {
-        position: relative;
-        display: inline-block;
-        margin: 0;
-        width: 75px;
-        height: 28px;
-        line-height: 28px;
-        background: var(--black_color);
-        border-radius: 2em;
-        -webkit-transition: all ease-in 0.25s;
-        -ms-transition: all ease-in 0.25s;
-        transition: all ease-in 0.25s;
-        padding: 0 5px;
-        cursor: pointer;
-    }
-    .g_status_button .round_dv .texts {
-        -webkit-transition: all ease-in 0.25s;
-        -ms-transition: all ease-in 0.25s;
-        transition: all ease-in 0.25s;
-        position: absolute;
-    }
-    .g_status_button .round_dv .a_text {
-        right: 4px;
-    }
-    .g_status_button .round_dv .d_text {
-        visibility: hidden;
-        opacity: 0;
-        left: 4px;
-    }
-    .g_status_button .circles {
-        position: absolute;
-        left: 4px;
-        top: 4px;
-        height: 20px;
-        width: 20px;
-        background-color: #ffffff;
-        border-radius: 50%;
-        -webkit-transition: all ease-in 0.25s;
-        -ms-transition: all ease-in 0.25s;
-        transition: all ease-in 0.25s;
-    }
-    .g_status_button input[type="checkbox"]:checked ~ .round_dv .a_text {
-        visibility: hidden;
-        opacity: 0;
-    }
-    .g_status_button input[type="checkbox"]:checked ~ .round_dv .d_text {
-        visibility: visible;
-        opacity: 1;
-    }
-    .g_status_button input[type="checkbox"]:checked ~ .round_dv {
-        background: var(--blue_color);
-    }
-    .g_status_button input[type="checkbox"]:checked ~ .round_dv .circles {
-        -webkit-transform: translateX(49px);
-        -ms-transform: translateX(49px);
-        -moz-transform: translateX(49px);
-        -o-transform: translateX(49px);
-        transform: translateX(49px);
-    }
-    /*========= Gif Status Button End ============*/
     /*========= Gif Status Button 2 start ============*/
     .g_status_button2{
-        text-align: center;
+        text-align: left;
     }
     .g_status_button2 .labels {
         display: inline-block;

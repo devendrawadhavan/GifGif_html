@@ -10,7 +10,7 @@
               <!-- dashboard Header -->
                <div class="dash_page_header">
                    <div class="dash_page_title">
-                       <h3>Approved Gifs</h3>
+                       <h3>Not Approved Gifs</h3>
                    </div>
                    <div class="h_right_side">
                        <div class="l_user_dropdown">
@@ -50,7 +50,23 @@
                                         <a href="#" class="icons"><i class="far fa-trash-alt"></i></a>
                                     </div>
                                     <div class="gif_title">
-                                        <h4><a href="../gif_single_page.php">Adorable kittens</a></h4>
+                                      <form>
+                                        <div class="g_status_button2">
+                                          <label class="labels">
+                                            <input type="radio" name="gif_status" value="Accept" checked="true">
+                                            <span class="round_dv">
+                                              <span class="texts">Accept</span><i class="fas fa-check"></i>
+                                            </span>
+                                          </label>
+                                          <label class="labels deny">
+                                            <input type="radio" name="gif_status" value="Deny">
+                                            <span class="round_dv">
+                                              <span class="texts">Deny</span><i class="fas fa-times"></i>
+                                            </span>
+                                          </label>
+                                        </div>
+                                      </form>
+                                      <h4><a href="../gif_single_page.php">Adorable kittens</a></h4>
                                     </div>
                                 </div>
                               </div>
@@ -69,7 +85,23 @@
                                         <a href="#" class="icons"><i class="far fa-trash-alt"></i></a>
                                     </div>
                                     <div class="gif_title">
-                                        <h4><a href="../gif_single_page.php">Adorable kittens</a></h4>
+                                      <form>
+                                        <div class="g_status_button2">
+                                          <label class="labels">
+                                            <input type="radio" name="gif_status" value="Accept">
+                                            <span class="round_dv">
+                                              <span class="texts">Accept</span><i class="fas fa-check"></i>
+                                            </span>
+                                          </label>
+                                          <label class="labels deny">
+                                            <input type="radio" name="gif_status" value="Deny" checked="true">
+                                            <span class="round_dv">
+                                              <span class="texts">Deny</span><i class="fas fa-times"></i>
+                                            </span>
+                                          </label>
+                                        </div>
+                                      </form>
+                                      <h4><a href="../gif_single_page.php">Adorable kittens</a></h4>
                                     </div>
                                 </div>
                               </div>
@@ -88,7 +120,23 @@
                                         <a href="#" class="icons"><i class="far fa-trash-alt"></i></a>
                                     </div>
                                     <div class="gif_title">
-                                        <h4><a href="../gif_single_page.php">Adorable kittens</a></h4>
+                                      <form>
+                                        <div class="g_status_button2">
+                                          <label class="labels">
+                                            <input type="radio" name="gif_status" value="Accept">
+                                            <span class="round_dv">
+                                              <span class="texts">Accept</span><i class="fas fa-check"></i>
+                                            </span>
+                                          </label>
+                                          <label class="labels deny">
+                                            <input type="radio" name="gif_status" value="Deny">
+                                            <span class="round_dv">
+                                              <span class="texts">Deny</span><i class="fas fa-times"></i>
+                                            </span>
+                                          </label>
+                                        </div>
+                                      </form>
+                                      <h4><a href="../gif_single_page.php">Adorable kittens</a></h4>
                                     </div>
                                 </div>
                               </div>
@@ -107,7 +155,23 @@
                                         <a href="#" class="icons"><i class="far fa-trash-alt"></i></a>
                                     </div>
                                     <div class="gif_title">
-                                        <h4><a href="../gif_single_page.php">Adorable kittens</a></h4>
+                                      <form>
+                                        <div class="g_status_button2">
+                                          <label class="labels">
+                                            <input type="radio" name="gif_status" value="Accept">
+                                            <span class="round_dv">
+                                              <span class="texts">Accept</span><i class="fas fa-check"></i>
+                                            </span>
+                                          </label>
+                                          <label class="labels deny">
+                                            <input type="radio" name="gif_status" value="Deny">
+                                            <span class="round_dv">
+                                              <span class="texts">Deny</span><i class="fas fa-times"></i>
+                                            </span>
+                                          </label>
+                                        </div>
+                                      </form>
+                                      <h4><a href="../gif_single_page.php">Adorable kittens</a></h4>
                                     </div>
                                 </div>
                               </div>
