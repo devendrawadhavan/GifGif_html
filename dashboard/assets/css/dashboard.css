@@ -451,6 +451,9 @@
         border-radius: 8px;
         object-fit: cover;
     }
+    .img_preview_dv .gif_img_preview{
+        display: inline-block;
+    }
     .img_upload_button {
         display: inline-block;
         margin: 0;
@@ -940,6 +943,7 @@
         padding: 0 5px;
         cursor: pointer;   
         font-size: 13px; 
+        text-align: center;
     }
     .g_status_button2 .round_dv i {
         margin-left: 4px;

@@ -160,7 +160,9 @@
                         </div>
                         <div class="input_group col-xl-10 col-lg-9 col-12">
                           <div class="img_preview_dv">
-                            <img id="custom_img_preview" src="assets/images/no_preview_img.jpg" alt="Gif Image"/>
+                            <div class="gif_img_preview">
+                              <img id="custom_img_preview" src="assets/images/no_preview_img.jpg" alt="Gif Image"/>
+                            </div>
                           </div>
                         </div>
                       </div>
