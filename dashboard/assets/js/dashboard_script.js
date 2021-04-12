@@ -14,7 +14,9 @@
     });
     //dashboard sidebar close on mobile tablet resize
     //select 2 multiple js
-    $('.multiple_js_select_box').select2();
+    $(".multiple_js_select_box").select2({
+      //tags: true
+    });
     //custome file upload preview
     $(".custome_file_upload_input").change(function() {
       readURL(this);
