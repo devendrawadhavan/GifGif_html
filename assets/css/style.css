@@ -1074,6 +1074,35 @@
     .gif_login_form .account_reg_text p a:hover {
         color: #ffffff;
     }
+   .other_login_btn {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .other_login_btn .login_with_btn {
+        display: inline-block;
+        padding: 10px;
+        border-radius: 5px;
+        background: #486ca5;
+        color: #fff;
+        text-decoration: none;
+        text-transform: capitalize;
+        text-align: left;
+        min-width: 200px;
+    }
+    .other_login_btn .login_with_btn.google_btn {
+        background: #4081ec;
+        margin-top: 10px;
+    }
+    .login_with_btn .icns {
+        border-right: 1px solid;
+        display: inline-block;
+        margin-right: 8px;
+        padding-right: 8px;
+    }
+    .other_login_btn .login_with_btn:hover {
+        color: #fff;
+        text-decoration: none;
+    }
     /*====== Login page css End ======*/
     /*====== Gif Single image Css ======*/
    .gif_single_title {

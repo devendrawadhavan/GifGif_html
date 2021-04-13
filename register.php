@@ -28,6 +28,12 @@
                             <div class="button_group">
                                 <button type="submit" class="site_button register_btn">Register</button>
                             </div>
+                           <div class="other_login_btn">
+                                <a href="#" class="login_with_btn google_btn"><span class="icns"><i class="fab fa-google"></i></span>signup With Google</a>
+                            </div>
+                            <div class="other_login_btn">
+                                <a href="#" class="login_with_btn fb_btn"><span class="icns"><i class="fab fa-facebook-f"></i></span>signup With facebook</a>
+                            </div>
                             <div class="account_reg_text">
                                 <p>If you have already registered <a href="login.php">Login Now</a></p>
                             </div>

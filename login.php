@@ -24,6 +24,12 @@
                                 <!-- <button type="submit" class="site_button login_btn">Login</button> -->
                                 <a href="dashboard/add_gif.php" class="site_button login_btn">Login</a>
                             </div>
+                            <div class="other_login_btn">
+                                <a href="#" class="login_with_btn google_btn"><span class="icns"><i class="fab fa-google"></i></span>Login With Google</a>
+                            </div>
+                            <div class="other_login_btn">
+                                <a href="#" class="login_with_btn fb_btn"><span class="icns"><i class="fab fa-facebook-f"></i></span>Login With facebook</a>
+                            </div>
                             <div class="account_reg_text">
                                 <p>Don't have an account <a href="register.php">Register Now</a></p>
                             </div>
