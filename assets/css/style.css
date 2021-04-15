@@ -1049,10 +1049,9 @@
         line-height: 45px;
     }
     .gif_login_form .forget_pass_text {
-        text-align: center;
+        text-align: right;
         margin-bottom: 20px;
     }
-
     .gif_login_form .forget_pass_text a {
         text-decoration: none;
         color: #fff;
@@ -1114,8 +1113,6 @@
     }
     .form_or_text_dv {
         text-align: center;
-        font-size: 17px;
-        font-weight: 500;
         text-transform: uppercase;
         height: 18px;
         line-height: 18px;
@@ -1127,8 +1124,8 @@
         position: absolute;
         content: "";
         height: 1px;
-        background: #fff;
-        width: 45%;
+        background: var(--blue_color);
+        width: 46%;
         top: 50%;
         margin-top: -.5px;
     }

@@ -391,18 +391,16 @@
 	}
 	/*== header css ==*/
 	.form_or_text_dv {
-	    font-size: 15px;
+	    font-size: 14px;
 	}
 }
 @media(max-width: 425px) {
+	.form_or_text_dv:before, .form_or_text_dv:after {
+	    width: 43%;
+	}
 	.other_login_btn .login_with_btn {
 		width: 100%;
 		min-width: 100%;
-	}
-}
-@media(max-width: 390px) {
-	.form_or_text_dv:before, .form_or_text_dv:after {
-	    width: 43%;
 	}
 }
 @media(max-width: 375px) {
