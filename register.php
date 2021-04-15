@@ -28,11 +28,14 @@
                             <div class="button_group">
                                 <button type="submit" class="site_button register_btn">Register</button>
                             </div>
+                            <!-- Or Text -->
+                            <div class="form_or_text_dv"><span>Or</span></div>
+                            <!-- Or Text -->
                            <div class="other_login_btn">
-                                <a href="#" class="login_with_btn google_btn"><span class="icns"><i class="fab fa-google"></i></span>signup With Google</a>
+                                <a href="#" class="login_with_btn google_btn"><span class="icns"><i class="fab fa-google"></i></span><span class="texts">signup With Google</span></a>
                             </div>
                             <div class="other_login_btn">
-                                <a href="#" class="login_with_btn fb_btn"><span class="icns"><i class="fab fa-facebook-f"></i></span>signup With facebook</a>
+                                <a href="#" class="login_with_btn fb_btn"><span class="icns"><i class="fab fa-facebook-f"></i></span><span class="texts">signup With facebook</span></a>
                             </div>
                             <div class="account_reg_text">
                                 <p>If you have already registered <a href="login.php">Login Now</a></p>

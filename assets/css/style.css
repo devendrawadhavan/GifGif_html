@@ -1080,28 +1080,66 @@
     }
     .other_login_btn .login_with_btn {
         display: inline-block;
-        padding: 13.5px 10px;
+        padding-right: 8px;
         border-radius: 5px;
-        background: #486ca5;
+        background: #3c66c4;
         color: #fff;
         text-decoration: none;
         text-transform: capitalize;
         text-align: left;
-        min-width: 200px;
+        min-width: 250px;
     }
-    .other_login_btn .login_with_btn.google_btn {
-        background: #4081ec;
-        margin-top: 10px;
+   .other_login_btn .login_with_btn.google_btn {
+        background: #cf4332;
     }
     .login_with_btn .icns {
-        border-right: 1px solid;
         display: inline-block;
         margin-right: 8px;
-        padding-right: 8px;
+        height: 45px;
+        line-height: 45px;
+        width: 45px;
+        text-align: center;
+        background: rgb(255 255 255 / 12%);
+        font-size: 18px;
+        align-items: center;
+        vertical-align: middle;
+        border-radius: 5px 0 0 5px;
+    }
+    .login_with_btn .texts {
+        vertical-align: middle;
     }
     .other_login_btn .login_with_btn:hover {
         color: #fff;
         text-decoration: none;
+    }
+    .form_or_text_dv {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 500;
+        text-transform: uppercase;
+        height: 18px;
+        line-height: 18px;
+        position: relative;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .form_or_text_dv:before, .form_or_text_dv:after {
+        position: absolute;
+        content: "";
+        height: 1px;
+        background: #fff;
+        width: 45%;
+        top: 50%;
+        margin-top: -.5px;
+    }
+    .form_or_text_dv:before{
+        left: 0;
+    }
+    .form_or_text_dv:after {
+        right: 0;
+    }
+    .gif_register_page {
+        padding-bottom: 100px;
     }
     /*====== Login page css End ======*/
     /*====== Gif Single image Css ======*/

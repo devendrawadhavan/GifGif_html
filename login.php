@@ -24,11 +24,14 @@
                                 <!-- <button type="submit" class="site_button login_btn">Login</button> -->
                                 <a href="dashboard/add_gif.php" class="site_button login_btn">Login</a>
                             </div>
+                            <!-- Or Text -->
+                            <div class="form_or_text_dv"><span>Or</span></div>
+                            <!-- Or Text -->
                             <div class="other_login_btn">
-                                <a href="#" class="login_with_btn google_btn"><span class="icns"><i class="fab fa-google"></i></span>Login With Google</a>
+                                <a href="#" class="login_with_btn google_btn"><span class="icns"><i class="fab fa-google"></i></span><span class="texts">Login With Google</span></a>
                             </div>
                             <div class="other_login_btn">
-                                <a href="#" class="login_with_btn fb_btn"><span class="icns"><i class="fab fa-facebook-f"></i></span>Login With facebook</a>
+                                <a href="#" class="login_with_btn fb_btn"><span class="icns"><i class="fab fa-facebook-f"></i></span><span class="texts">Login With facebook<span></a>
                             </div>
                             <div class="account_reg_text">
                                 <p>Don't have an account <a href="register.php">Register Now</a></p>
