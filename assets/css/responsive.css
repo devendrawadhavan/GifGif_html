@@ -12,6 +12,13 @@
 	}
 }
 @media(min-width: 992px) {
+	.gif_login_page {
+	    padding-bottom: 150px;
+	    min-height: 100vh;
+	}
+	.gif_register_page {
+	    padding-bottom: 100px;
+	}
 	.mobile_show_ad{
 		display: none;
 	}
