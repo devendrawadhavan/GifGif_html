@@ -185,6 +185,7 @@
         -moz-transition: all ease-in 0.25s;
         vertical-align: middle;
         border-radius: 2px;
+        margin-top: 1px;
     }
     .check_box .c_box:after {
         position: absolute;
@@ -204,7 +205,7 @@
     .check_box .c_text {
         display: block;
         text-transform: capitalize;
-        padding-left: 7px;
+        padding-left: 22px;
     }
     .check_box .c_text a {
         text-decoration: none;
@@ -976,13 +977,17 @@
 
     /*========= Ads page page css start/ Shubham ============*/
     .screen_check_box{
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
     }
     .screen_check_box .form_check_label{
-        display: flex;
-        width: 33.333333%;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
         align-items: center;
     }
     /*========= Ads page page css start/ Shubham ============*/
@@ -1189,11 +1194,10 @@
             width: 16px;
         }
         /*=== switch checkbox css ===*/
-        .screen_check_box {
-            flex-direction: column;
-        }
-         .screen_check_box .form_check_label{
-            width: 100%;
+        .screen_check_box .form_check_label{
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
             margin: 6px 0;
         }
     }
