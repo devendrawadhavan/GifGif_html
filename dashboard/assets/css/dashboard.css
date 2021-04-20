@@ -164,6 +164,69 @@
         background: var(--gray_color); 
     }
     /*== radio box css ==*/
+    /*== check box css ==*/
+    .check_box input[type="checkbox"] {
+        display: none;
+    }
+    .check_box label {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        margin: 5px 0;
+    }
+    .check_box .c_box {
+        float: left;
+        width: 15px;
+        height: 15px;
+        background: #cccccc;
+        position: relative;
+        transition: all ease-in 0.25s;
+        -webkit-transition: all ease-in 0.25s;
+        -moz-transition: all ease-in 0.25s;
+        vertical-align: middle;
+        border-radius: 2px;
+    }
+    .check_box .c_box:after {
+        position: absolute;
+        content: "";
+        left: 3px;
+        top: 4px;
+        width: 10px;
+        height: 5px;
+        border-left: 2px solid #ffffff;
+        border-bottom: 2px solid #ffffff;
+        visibility: hidden;
+        opacity: 0;
+        transition: all ease-in 0.25s;
+        -webkit-transition: all ease-in 0.25s;
+        -moz-transition: all ease-in 0.25s;
+    }
+    .check_box .c_text {
+        display: block;
+        text-transform: capitalize;
+        padding-left: 7px;
+    }
+    .check_box .c_text a {
+        text-decoration: none;
+        color: #007bff;
+    }
+    .check_box .c_text a:hover {
+        text-decoration: none;
+        color: #000000;
+    }
+    .check_box input[type="checkbox"]:checked~.c_box {
+        background: var(--blue_color);
+    }
+    .check_box input[type="checkbox"]:checked~.c_box:after {
+        visibility: visible;
+        opacity: 1;
+        transform: rotate(-31deg);
+        -webkit-transform: rotate(-31deg);
+        -moz-transform: rotate(-31deg);
+        -ms-transform: rotate(-31deg);
+        -o-transform: rotate(-31deg);
+    }
+    /*== check box css ==*/
     /*====== Searchbar css Start ======*/
     .searchbar_dv{
         position: relative;
@@ -686,6 +749,13 @@
         -o-transform: translateX(24px);
         transform: translateX(24px);
     }
+    .gif_dasboard_table tr td .dashboard_button {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0 15px;
+    }
     /*========= dashboard Table css End ============*/
     /*========= dashboard Datatable css start ============*/
     table.dataTable>tbody>tr.child ul.dtr-details {
@@ -904,6 +974,19 @@
     }
     /*========= setting page css start ============*/
 
+    /*========= Ads page page css start/ Shubham ============*/
+    .screen_check_box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .screen_check_box .form_check_label{
+        display: flex;
+        width: 33.333333%;
+        align-items: center;
+    }
+    /*========= Ads page page css start/ Shubham ============*/
+
     /*==== responsive css start ====*/
     @media(max-width: 1100px){
         /*========= dashboard sidebar css ============*/
@@ -1106,6 +1189,13 @@
             width: 16px;
         }
         /*=== switch checkbox css ===*/
+        .screen_check_box {
+            flex-direction: column;
+        }
+         .screen_check_box .form_check_label{
+            width: 100%;
+            margin: 6px 0;
+        }
     }
     @media(max-width: 414px){
         .gif_listing_colm {

@@ -63,6 +63,18 @@
           </a>
         </li>
         <li>
+          <a href="ads_banners.php">
+            <span class="nav_icon"><i class="fas fa-images"></i></span>
+            <span class="nav_text">Ads Banners</span>
+          </a>
+        </li>
+        <li>
+          <a href="ads_txt.php">
+            <span class="nav_icon"><i class="far fa-file-alt"></i></span>
+            <span class="nav_text">Ads.txt</span>
+          </a>
+        </li>
+        <li>
           <a href="#">
             <span class="nav_icon"><i class="fas fa-sign-out-alt"></i></span>
             <span class="nav_text">Logout</span>
