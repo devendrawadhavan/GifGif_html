@@ -29,17 +29,14 @@
                <!-- dashboard Header -->
                 <div class="edit_page_form_wrapper">
                   <!-- black box start-->
-                  <div class="black_box edit_page_form_box">
+                  <div class="black_box ads_text_form_box">
                     <div class="gif_dashboard_form edit_page_form">
                       <form>
                         <div class="row">
                           <div class="form_group col-lg-12 col-12">
                             <label class="labels">Ads.txt</label>
                             <div class="input_group">
-                                <div id="editor">
-                                  <h1>Hello world!</h1>
-                                  <p>ddddd</a>.</p>
-                                </div>
+                                <textarea class="white_input_text" name="" placeholder="Advertisement Text Here.."></textarea>
                             </div>
                           </div>
                         </div>

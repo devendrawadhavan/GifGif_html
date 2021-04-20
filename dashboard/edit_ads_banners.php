@@ -6,7 +6,7 @@
        <!-- sidebar End -->
        <!-- content start -->
        <div class="gf_dash_content">
-           <div class="gf_dash_content_inr edit_ads_banner_page">
+           <div class="gf_dash_content_inr">
               <!-- dashboard Header -->
                <div class="dash_page_header">
                    <div class="dash_page_title">
@@ -29,7 +29,7 @@
                <!-- dashboard Header -->
                 <div class="edit_page_form_wrapper">
                   <!-- black box start-->
-                  <div class="black_box edit_page_form_box">
+                  <div class="black_box edit_ads_banner_page">
                     <div class="gif_dashboard_form edit_page_form">
                       <form>
                         <div class="row">
@@ -80,10 +80,7 @@
                           <div class="form_group col-lg-12 col-12">
                             <label class="labels">Ads HTML</label>
                             <div class="input_group">
-                                <div id="editor">
-                                  <h1>Hello world!</h1>
-                                  <p>ddddd</a>.</p>
-                                </div>
+                                <textarea class="white_input_text" name="" placeholder="Advertisement HTML Here.."></textarea>
                             </div>
                           </div>
                         </div>
