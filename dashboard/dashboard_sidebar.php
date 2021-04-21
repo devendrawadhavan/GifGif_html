@@ -9,6 +9,12 @@
   <div class="gf_dashboard_navs">
      <ul>
          <li>
+          <a href="header_body_scripts.php">
+            <span class="nav_icon"><i class="far fa-file-code"></i></span>
+            <span class="nav_text">header body scripts</span>
+          </a>
+         </li>
+         <li>
           <a href="../index.php">
             <span class="nav_icon"><i class="fas fa-eye"></i></span>
             <span class="nav_text">Visit website</span>

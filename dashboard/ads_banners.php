@@ -27,6 +27,13 @@
                    </div>
                </div>
                <!-- dashboard Header -->
+                <!-- New page Div -->
+               <div class="add_new_page_dv">
+                <div class="right_align_dv">
+                  <a href="create_ads.php" class="ad_page_btn dashboard_button">Create Ads</a>
+                </div>
+               </div>
+               <!-- New page Div -->
                <div class="gif_page_tables">
                   <div class="gif_dasboard_table">
                     <table class="table dashboard_data_table">
