@@ -138,6 +138,22 @@
 	.gif_detail_page_wrapper {
 	    padding-bottom: 100px;
 	}
+	/*=== cookies css ===*/
+	.ck_popup_contents_row .left_columns {
+	    -ms-flex: 0 0 70%;
+	    flex: 0 0 70%;
+	    max-width: 70%;
+	}
+	.ck_popup_contents_row .right_columns {
+	    -ms-flex: 0 0 30%;
+	    flex: 0 0 30%;
+	    max-width: 30%;
+	}
+	.ck_settings_dv {
+	    display: block;
+	    text-align: center;
+	}
+	/*=== cookies css ===*/
 }
 @media(min-width: 768px) {
 	.fix_social_icons .s_open_icon {
@@ -260,9 +276,6 @@
 	}
 	/*=== trending Gif ===*/
 	/*=== sidebar menu css ===*/
-	.cookies_popup_wrap {
-	    padding: 0 10px;
-	}
 	.sidebar_fix_menu_body {
 	    padding-top: 65px;
 	    padding-bottom: 20px;
@@ -353,6 +366,16 @@
 	    height: 100px;
 	}
 	/*== Cookies css ==*/
+	.ck_popup_contents_row .left_columns, 
+	.ck_popup_contents_row .right_columns{
+		-ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+		text-align: center;
+	}
+	.ck_popup_contents_row .left_columns{
+		padding-right: 0;
+	}
 	.ck_popup_contents {
 	    padding: 20px 15px;
 	}
@@ -366,6 +389,9 @@
 	.ck_popup_contents .ck_settings {
 	    text-decoration: underline;
 	    font-size: 14px;
+	}
+	.ck_settings_dv {
+	    margin-bottom: 10px;
 	}
 	.ck_buttons_divs .ck_buttons {
 	    height: 38px;

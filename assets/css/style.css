@@ -1568,7 +1568,7 @@
         display: -ms-flexbox;
         display: -webkit-flex;
         display: flex;
-        align-items: center;
+        align-items: flex-end;
         transition: all ease-in 0.25s;
         -webkit-transition: all ease-in 0.25s;
         -moz-transition: all ease-in 0.25s;
@@ -1580,15 +1580,36 @@
         opacity: 1;
     }
     .ck_popup_modal {
-        max-width: 500px;
-        margin: 20px auto;
+        width: 100%;
     }
     .ck_popup_contents {
-        padding: 20px;
+        padding: 20px 25px;
         background: var(--black_color);
-        border-radius: 8px;
-        text-align: center;
         position: relative;
+    }
+    .ck_popup_contents_row {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .ck_popup_contents_row .left_columns{
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%;
+        padding-right: 15px;
+    }
+    .ck_popup_contents_row .right_columns{
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+        text-align: right;
+    }
+    .ck_settings_dv {
+        display: inline-block;
     }
     .ck_popup_contents .close_cookies {
         position: absolute;
@@ -1611,9 +1632,9 @@
         text-decoration: underline;
     }
     .ck_buttons_divs {
-        margin-top: 20px;
+        display: inline-block;
     }
-    .ck_buttons_divs .ck_buttons{
+    .ck_buttons_divs .ck_buttons {
         cursor: pointer;
         display: inline-block;
         text-align: center;
@@ -1631,6 +1652,7 @@
         transition: all ease-in 0.25s;
         -webkit-transition: all ease-in 0.25s;
         -moz-transition: all ease-in 0.25s;
+        margin: 5px 0;
     }
     .ck_buttons_divs .ck_buttons:hover{
         color: var(--blue_color);
