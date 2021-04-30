@@ -52,4 +52,11 @@
     $('.l_dropdown_btn').on('click', function() {
         $(this).next(".l_user_dropdownmenu").toggleClass("show_menu");
     });
+    //Cookies Popup jquery
+    $('.close_cookies').on('click', function() {
+        $(this).parents(".cookies_popup_wrap").removeClass("show_cookies");
+    });
+    $('.decline_btn').on('click', function() {
+        $(this).parents(".cookies_popup_wrap").removeClass("show_cookies");
+    });
 })(jQuery);

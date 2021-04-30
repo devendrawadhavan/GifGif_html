@@ -22,6 +22,6 @@
     <!-- owl-carousel js file-->
     <script src="assets/js/plugins/owl_carousel/owl.carousel.min.js"></script>
     <!-- owl-carousel js file-->
-    <script src="assets/js/custom_script.js?ver=1.3"></script>
+    <script src="assets/js/custom_script.js?ver=1.4"></script>
 </body>
 </html>

@@ -260,6 +260,9 @@
 	}
 	/*=== trending Gif ===*/
 	/*=== sidebar menu css ===*/
+	.cookies_popup_wrap {
+	    padding: 0 10px;
+	}
 	.sidebar_fix_menu_body {
 	    padding-top: 65px;
 	    padding-bottom: 20px;
@@ -349,6 +352,28 @@
 	    max-width: 320px;
 	    height: 100px;
 	}
+	/*== Cookies css ==*/
+	.ck_popup_contents {
+	    padding: 20px 15px;
+	}
+	.ck_popup_contents h3 {
+	    font-size: 22px;
+	}
+	.ck_popup_contents p {
+	    font-size: 14px;
+	    line-height: 23px;
+	}
+	.ck_popup_contents .ck_settings {
+	    text-decoration: underline;
+	    font-size: 14px;
+	}
+	.ck_buttons_divs .ck_buttons {
+	    height: 38px;
+	    line-height: 38px;
+	    padding: 0 18px;
+	    font-size: 14px;
+	}
+	/*== Cookies css ==*/
 }
 @media(min-width: 361px) and (max-width: 440px) {
 	.h_gif_item .gif_image img {

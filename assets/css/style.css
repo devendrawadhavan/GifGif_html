@@ -1556,5 +1556,93 @@
         display: none;
     }
    /*====== sidebar tabs css ======*/
+   /*====== Cookies css ======*/
+    .cookies_popup_wrap {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgb(0 0 0 / 65%);
+        z-index: 1111;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        transition: all ease-in 0.25s;
+        -webkit-transition: all ease-in 0.25s;
+        -moz-transition: all ease-in 0.25s;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .cookies_popup_wrap.show_cookies{
+        visibility: visible;
+        opacity: 1;
+    }
+    .ck_popup_modal {
+        max-width: 500px;
+        margin: 20px auto;
+    }
+    .ck_popup_contents {
+        padding: 20px;
+        background: var(--black_color);
+        border-radius: 8px;
+        text-align: center;
+        position: relative;
+    }
+    .ck_popup_contents .close_cookies {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 20px;
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+    .ck_popup_contents h3 {
+        color: var(--blue_color);
+        text-transform: capitalize;
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .ck_popup_contents .ck_settings {
+        text-decoration: underline;
+    }
+    .ck_buttons_divs {
+        margin-top: 20px;
+    }
+    .ck_buttons_divs .ck_buttons{
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        background: var(--blue_color);
+        color: #ffffff;
+        height: 42px;
+        line-height: 42px;
+        border-radius: 2em;
+        padding: 0 20px;
+        font-size: 16px;
+        border: none;
+        text-transform: capitalize;
+        font-weight: 600;
+        transition: all ease-in 0.25s;
+        -webkit-transition: all ease-in 0.25s;
+        -moz-transition: all ease-in 0.25s;
+    }
+    .ck_buttons_divs .ck_buttons:hover{
+        color: var(--blue_color);
+        background:#ffffff;
+    }
+    .ck_buttons_divs .decline_btn{
+        background: #ff3535;
+    }
+    .ck_buttons_divs .decline_btn:hover{
+        background: #ff3535;
+        color: #ffffff;
+    }
+   /*====== Cookies css ======*/
 
     

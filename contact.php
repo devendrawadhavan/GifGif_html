@@ -53,4 +53,20 @@
         </div>
     </div>
     <!-- Login Page End -->
+    <!-- Cookies Popup start -->
+    <div class="cookies_popup_wrap show_cookies">
+        <div class="ck_popup_modal">
+            <div class="ck_popup_contents">
+                <span class="close_cookies"><i class="fas fa-times"></i></span>
+                <h3>We uses cookies</h3>
+                <p>We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By Clicking "Accept", you consent to the use of All the cookies.</p>
+                <div><a href="#" class="ck_settings">Cookie Settings</a></div>
+                <div class="ck_buttons_divs">
+                    <span class="ck_buttons">Accept</span>
+                    <span class="ck_buttons decline_btn">decline</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cookies Popup End -->
     <?php include 'footer.php';?>
